@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Renoise Forum Color Themes — Gallery</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: #0d1017; color: #dfe4ee;
+    font: 15px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  header {
+    position: sticky; top: 0; z-index: 5;
+    background: rgba(13,16,23,.92); backdrop-filter: blur(6px);
+    border-bottom: 1px solid #232936; padding: 12px 20px;
+    display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between;
+  }
+  h1 { font-size: 17px; margin: 0; letter-spacing: .02em; }
+  h1 span { color: #8b93a7; font-weight: 400; font-size: 13px; }
+  .controls { display: flex; gap: 8px; flex-wrap: wrap; }
+  input, select {
+    background: #171b24; color: #dfe4ee; border: 1px solid #2c3342;
+    border-radius: 8px; padding: 7px 10px; font-size: 13px; outline: none;
+  }
+  input:focus, select:focus { border-color: #37e2d5; }
+  input { width: 220px; }
+  .count { color: #8b93a7; font-size: 12px; margin-right: 4px; }
+  main { padding: 20px; display: grid; gap: 18px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
+  figure { margin: 0; background: #141924; border: 1px solid #232936; border-radius: 12px;
+    overflow: hidden; display: flex; flex-direction: column; }
+  .thumb { background: #0a0d13; aspect-ratio: 16/9; overflow: hidden; position: relative; }
+  .thumb img { width: 100%; height: 100%; object-fit: cover; object-position: top; display: block;
+    transition: transform .25s ease; }
+  figure:hover .thumb img { transform: scale(1.02); }
+  figcaption { padding: 10px 12px 12px; }
+  .name { font-weight: 600; font-size: 14px; margin-bottom: 2px; word-break: break-word; }
+  .meta { color: #8b93a7; font-size: 12px; margin-bottom: 10px; }
+  .meta .author { color: #37e2d5; }
+  .links { display: flex; gap: 8px; }
+  a.btn {
+    display: inline-block; text-decoration: none; font-size: 12px; padding: 5px 10px;
+    border-radius: 7px; border: 1px solid #2c3342; color: #cfd6e4; background: #1a202b;
+  }
+  a.btn.dl { background: #37e2d5; color: #06201d; border-color: #37e2d5; font-weight: 600; }
+  a.btn:hover { border-color: #37e2d5; }
+  .empty { color: #8b93a7; text-align: center; padding: 60px 20px; grid-column: 1/-1; }
+  footer { color: #5d6577; font-size: 12px; padding: 20px; text-align: center; }
+  footer a { color: #37e2d5; }
+  @media (max-width: 480px) {
+    main { grid-template-columns: 1fr; padding: 12px; }
+    input { width: 100%; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Renoise Forum Color Themes <span>— 229 themes · previews rendered by renoisethemes.com engine</span></h1>
+  <div class="controls">
+    <input id="q" type="search" placeholder="Search name or author…" autocomplete="off">
+    <select id="sort">
+      <option value="post">oldest post</option>
+      <option value="name">name A–Z</option>
+      <option value="author">author A–Z</option>
+    </select>
+    <span class="count" id="count"></span>
+  </div>
+</header>
+<main id="grid"></main>
+<footer>
+  Archived from the Renoise forum thread
+  <a href="https://forum.renoise.com/t/color-themes-for-renoise/18003">“Color Themes For Renoise”</a>
+  · themes © their authors (see <a href="catalog.json">catalog.json</a>) ·
+  raw files in <a href="themes/">themes/</a> · <a href="https://github.com/mene311/renoise-forum-color-themes">repo</a>
+</footer>
+<script>
+const GRID = document.getElementById('grid');
+const COUNT = document.getElementById('count');
+const qEl = document.getElementById('q');
+const sortEl = document.getElementById('sort');
+let data = [];
+
+function url(path) {
+  return 'https://github.com/mene311/renoise-forum-color-themes/raw/master/' +
+    path.split('/').map(encodeURIComponent).join('/');
+}
+function stem(f) { return f.replace(/\.xrnc$/i, ''); }
+function esc(s) { return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+
+async function init() {
+  const r = await fetch('catalog.json');
+  data = (await r.json()).themes;
+  render();
+}
+function render() {
+  const q = qEl.value.trim().toLowerCase();
+  const sort = sortEl.value;
+  let items = data.filter(t =>
+    !q || t.name.toLowerCase().includes(q) || (t.author||'').toLowerCase().includes(q));
+  items.sort((a,b) => sort === 'post' ? a.post - b.post
+    : sort === 'name' ? a.name.localeCompare(b.name)
+    : (a.author||'').localeCompare(b.author||'') || a.name.localeCompare(b.name));
+  COUNT.textContent = items.length + ' / ' + data.length;
+  GRID.innerHTML = items.length ? '' : '<div class="empty">No themes match.</div>';
+  for (const t of items) {
+    const f = document.createElement('figure');
+    const s = stem(t.file);
+    f.innerHTML =
+      '<div class="thumb"><img loading="lazy" src="previews/' + s + '.png" alt="' + esc(t.name) + ' preview"></div>' +
+      '<figcaption>' +
+      '<div class="name">' + esc(t.name) + '</div>' +
+      '<div class="meta">by <span class="author">' + esc(t.author || 'Anonymous') + '</span>' +
+      ' · ' + esc(t.date) + ' · <a style="color:#8b93a7" href="https://forum.renoise.com/t/color-themes-for-renoise/18003/' + t.post + '">post #' + t.post + '</a></div>' +
+      '<div class="links">' +
+      '<a class="btn dl" href="' + url('themes/' + t.file) + '">⬇ .xrnc</a>' +
+      '<a class="btn" href="previews/' + s + '.png" target="_blank">preview</a>' +
+      '</div></figcaption>';
+    GRID.appendChild(f);
+  }
+}
+qEl.addEventListener('input', render);
+sortEl.addEventListener('change', render);
+init();
+</script>
+</body>
+</html>
