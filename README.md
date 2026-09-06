@@ -14,11 +14,18 @@ running since September 2006 and still active.
 | Path | Contents |
 |---|---|
 | `themes/` | 229 `.xrnc` theme files, named `<post>_<name>.xrnc` (forum post number prefix) |
+| `previews/` | Pattern-editor preview renders for every theme (see disclaimer below) |
 | `catalog.json` | Machine-readable index: file, theme name, author, forum post #, date, original filename, source URL, sha256, size |
 | `dead-links.csv` | 45 external download links from the thread that are gone (mostly 2006–2012 hosting) — documented loss |
 | `scripts/` | The harvesting scripts used to collect the archive (reproducibility) |
 
-**Size:** ~1.1 MB of themes. Tiny, no Git LFS needed.
+**Size:** ~1.1 MB of themes (+ ~26 MB of preview images). Tiny, no Git LFS needed.
+
+> ⚠️ **Preview disclaimer:** the images in `previews/` and on the [gallery](https://mene311.github.io/renoise-forum-color-themes/)
+> are **not screenshots** of these themes running in Renoise. They are approximate renders from the
+> renoisethemes.com preview engine, which recolors a reference image of the *default* Renoise UI with
+> each theme's colors (unmapped pixels, text, and icons are synthesized). Always install the `.xrnc`
+> to see the true look — the download is the source of truth.
 
 ## Why only 229?
 
