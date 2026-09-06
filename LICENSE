@@ -1,0 +1,12 @@
+CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+SPDX-License-Identifier: CC0-1.0
+
+This license applies to the repository shell: README, catalog, CSV metadata,
+and the harvesting scripts.
+
+The .xrnc theme files under themes/ are NOT covered by this license. They are
+the work of their respective authors and remain under the terms their authors
+chose by posting them publicly on the Renoise forum. See catalog.json for
+per-theme attribution (author, forum post, source URL).
+
+Full CC0 text: https://creativecommons.org/publicdomain/zero/1.0/legalcode
