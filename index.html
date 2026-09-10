@@ -64,13 +64,14 @@
 </head>
 <body>
 <header>
-  <h1>Renoise Color Themes <span>— 360 themes · forum + 2 Discord servers · previews rendered by renoisethemes.com engine</span></h1>
+  <h1>Renoise Color Themes <span>— 572 themes · forum + official gallery + 2 Discord servers · previews rendered by renoisethemes.com engine</span></h1>
   <div class="controls">
     <input id="q" type="search" placeholder="Search name, author, or uploader…" autocomplete="off">
     <select id="src">
       <option value="all">all sources</option>
-      <option value="forum">forum only</option>
-      <option value="discord">Discord only</option>
+      <option value="forum">forum</option>
+      <option value="renoise-webftp">official gallery</option>
+      <option value="discord">discord</option>
     </select>
     <select id="sort">
       <option value="post">oldest first</option>
@@ -114,15 +115,21 @@ async function init() {
   render();
 }
 function credit(t) {
-  // Forum entries: author is known. Discord entries: only the uploader is known,
-  // and ★ channels contain re-posts of third-party themes — so don't imply authorship.
-  if (t.source !== 'discord') {
+  // Forum entries: author verified. webftp entries: author from the official gallery folder
+  // name. Discord entries: only the uploader is known, and both servers contain re-posts,
+  // so never imply authorship.
+  const src = t.source || 'forum';
+  if (src === 'forum') {
     return 'by <span class="author">' + esc(t.author || 'Anonymous') + '</span>' +
       ' · ' + esc(t.date) +
       ' · <a style="color:#8b93a7" href="https://forum.renoise.com/t/color-themes-for-renoise/18003/' + t.post + '">post #' + t.post + '</a>';
   }
+  if (src === 'renoise-webftp') {
+    return 'by <span class="author">' + esc(t.author || 'unknown') + '</span>' +
+      ' · <span style="color:#8b93a7" title="Mirror of the official Renoise theme gallery">official gallery</span>';
+  }
   return 'author unverified · uploaded by <span class="author">@' + esc(t.posted_by || '?') + '</span>' +
-    ' · ' + esc(t.date) +
+    (t.date ? ' · ' + esc(t.date) : '') +
     ' · <span style="color:#8b93a7" title="Discord CDN links expire; the file in themes/ is the source of truth">' +
     esc((t.server ? t.server + ' ' : '') + (t.posted_in || '')) + '</span>';
 }
@@ -136,14 +143,15 @@ function render() {
         || (t.posted_by||'').toLowerCase().includes(q)));
   items.sort((a,b) => sort === 'post' ? (a.date||'').localeCompare(b.date||'') || ((a.post||0) - (b.post||0))
     : sort === 'name' ? a.name.localeCompare(b.name)
-    : (a.author||a.posted_by||'').localeCompare(b.author||b.posted_by||'') || a.name.localeCompare(b.name));
+    : ((a.author||a.posted_by||'zzz')).localeCompare(b.author||b.posted_by||'zzz') || a.name.localeCompare(b.name));
   COUNT.textContent = items.length + ' / ' + data.length;
   GRID.innerHTML = items.length ? '' : '<div class="empty">No themes match.</div>';
   for (const t of items) {
     const f = document.createElement('figure');
     const s = stem(t.file);
     const prev = enc('previews/' + s + '.png');   // encode: some filenames contain '#' and spaces
-    const badge = t.source === 'discord' ? ' <span class="src">discord</span>' : '';
+    const badge = t.source === 'discord' ? ' <span class="src">discord</span>'
+      : t.source === 'renoise-webftp' ? ' <span class="src">official</span>' : '';
     f.innerHTML =
       '<div class="thumb"><img loading="lazy" src="' + prev + '" alt="' + esc(t.name) + ' preview"></div>' +
       '<figcaption>' +

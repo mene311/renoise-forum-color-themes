@@ -1,13 +1,16 @@
 # Renoise Color Themes — Archive
 
-A curated, attribution-preserving archive of **360 Renoise color themes (`.xrnc`)`**
-from three community sources:
+A curated, attribution-preserving archive of **572 Renoise color themes (`.xrnc`)**
+from four community sources:
 
 | Source | Themes | Where |
 |---|---|---|
 | **Renoise Forum** — [“Color Themes For Renoise”](https://forum.renoise.com/t/color-themes-for-renoise/18003) thread, running since Sept 2006 | 229 | forum post uploads |
+| **Official Renoise theme gallery** (webftp mirror, captured 2022-03) | 95 | `<Author>-<Theme>` folders — **author verified from the gallery itself** |
 | **Discord** — [Renoise Themes & Stuff](https://discord.gg/hy48JMSHKc) | 103 | server attachments, mostly mod-curated `★` showcase channels |
-| **Discord** — Renoise Community Server | 28 | `#themes` channel |
+| **Discord** — Renoise Community Server (`#themes`, incl. a 128-file `themes.zip`) | 145 | server attachments |
+
+**324 of 572 themes carry a verified author** (forum 229 + gallery 95). The other 248 are Discord uploads where authorship could not be proven — see below.
 
 > ⚠️ **This is an archive, not an authorship claim.** Every theme is the work of its
 > original author. If you are an author and want your theme removed or re-credited,
@@ -17,13 +20,13 @@ from three community sources:
 
 | Path | Contents |
 |---|---|
-| `themes/` | 360 `.xrnc` theme files. Forum files are named `<post>_<name>.xrnc` (forum post number prefix); Discord files are named `dc<message_id>_<name>.xrnc` |
+| `themes/` | 572 `.xrnc` theme files. Naming: forum `<post>_<name>.xrnc` · official gallery `webftp_<name>.xrnc` · Discord `dc<message_id>_<name>.xrnc` · bulk zip `zth_<name>.xrnc` |
 | `previews/` | Rendered preview for every theme (see disclaimer below) |
 | `catalog.json` | Machine-readable index: file, theme name, author/uploader, date, original filename, source URL, sha256, size |
 | `dead-links.csv` | 45 external download links from the forum thread that are gone (mostly 2006–2012 hosting) — documented loss |
 | `scripts/` | The harvesting scripts used to collect both archives (reproducibility) |
 
-**Size:** ~1.6 MB of themes (~330 files) + preview images.
+**Size:** ~2.9 MB of themes (572 files) + preview images.
 
 > ⚠️ **Preview disclaimer:** the images in `previews/` and on the
 > [gallery](https://mene311.github.io/renoise-forum-color-themes/) are **not screenshots** of
@@ -34,9 +37,11 @@ from three community sources:
 
 ## ⚠️ Attribution of Discord-sourced themes
 
-The two sources have **different evidentiary standards**, and `catalog.json` reflects that:
+The sources have **different evidentiary standards**, and `catalog.json` reflects that:
 
 - **Forum entries** carry a verified `author` — the person who posted the theme in their own thread.
+- **Official-gallery entries** carry an `author` taken from the webftp gallery's `<Author>-<Theme>`
+  folder names (`Achenar-City_Lights/` → Achenar) — authoritative for those 95 themes.
 - **Discord entries do NOT.** They carry `posted_by`: the account that *uploaded the file*. That is
   **not** necessarily the author, and both servers are demonstrably full of re-posts:
 
@@ -55,9 +60,9 @@ The two sources have **different evidentiary standards**, and `catalog.json` ref
   `posted_by` usually is **not** the author. In *Renoise Community Server*, `#themes` carries
   requests and re-posts alongside genuine self-posts, so it's mixed either way.
 
-Because of this, **129 of the 131 Discord themes have `author: null`** rather than a guess —
+Because of this, **all 248 Discord themes have `author: null`** rather than a guess —
 this repo exists to preserve attribution, and mis-crediting is worse than under-crediting.
-De-duplication *by sha256* against the forum archive caught **12 files already present** under
+De-duplication *by sha256* across all four sources caught **18 files already present** under
 their true attribution; those were skipped rather than added twice.
 
 ### The `context` field
