@@ -12,15 +12,22 @@
    "url": "https://discord.gg/hy48JMSHKc",
    "guild_id": "886096835477917766",
    "count": 103
+  },
+  {
+   "id": "discord",
+   "name": "Discord — Renoise Community Server",
+   "url": "https://discord.gg/renoise",
+   "guild_id": "396305617779949568",
+   "count": 28
   }
  ],
  "source": "https://forum.renoise.com/t/color-themes-for-renoise/18003",
- "count": 332,
+ "count": 360,
  "counts": {
   "forum": 229,
-  "discord": 103
+  "discord": 131
  },
- "attribution_note": "Discord-sourced entries record the account that UPLOADED the file ('posted_by'), which is NOT necessarily its author: the server's featured (★) channels are curated and contain re-posts of third-party themes. 'author' is left null where authorship could not be independently verified. Original authors: open an issue to be credited.",
+ "attribution_note": "Discord-sourced entries record the account that UPLOADED the file ('posted_by'), which is NOT necessarily its author. Both Discord servers contain re-posts of third-party themes — in 'Renoise Themes & Stuff' the featured (star) channels are moderator-curated; in 'Renoise Community Server' the #themes channel carries requests and re-posts alongside self-posts. Where the accompanying message reveals the real author, it is preserved verbatim in the 'context' field. 'author' is left null rather than guessed. Original authors: open an issue to be credited.",
  "themes": [
   {
    "file": "0561_my jam.xrnc",
@@ -2783,7 +2790,8 @@
    "url": "https://cdn.discordapp.com/attachments/886224954234912798/886246993616318524/Autumntone_Beauty.xrnc",
    "sha256": "94a93f7860ea61ed606d225aef03a6109b89353c7a8a1d53235c5e3f59ade6a4",
    "size_bytes": 5070,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc886256803623628840_Beautiful_Pastell_Theme.xrnc",
@@ -2798,7 +2806,8 @@
    "url": "https://cdn.discordapp.com/attachments/886223484408188929/886256803623628840/Beautiful_Pastell_Theme.xrnc",
    "sha256": "d6afc7f4ab2e8c60c65e9b6f8563e0238317b0f56c9cfd3a4215c8dc93ee9adc",
    "size_bytes": 5135,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc886244185705963581_Edison_Sampler_Theme.xrnc",
@@ -2813,7 +2822,8 @@
    "url": "https://cdn.discordapp.com/attachments/886225132257968138/886244185705963581/Edison_Sampler_Theme.xrnc",
    "sha256": "606908b8e5e23bbaaebf1862d2dbe83e761aa5bce797597ed1db084889f11ccf",
    "size_bytes": 5071,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc886251060082122792_LED_Style_Theme.xrnc",
@@ -2828,7 +2838,8 @@
    "url": "https://cdn.discordapp.com/attachments/886250998740439070/886251060082122792/LED_Style_Theme.xrnc",
    "sha256": "313e86b2785b41d8b1c31529a6516b808f7fb383e766ecd01db1e637dc03002b",
    "size_bytes": 5138,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc886276074382692452_Renoise_Theme_reinterpreted.xrnc",
@@ -2843,7 +2854,8 @@
    "url": "https://cdn.discordapp.com/attachments/886275646316224572/886276074382692452/Renoise_Theme_reinterpreted.xrnc",
    "sha256": "5f1bbbaac0760888c97a05b969748de7fc423509dd98e5f5771518d293164275",
    "size_bytes": 5109,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc886251272985018419_Titanium-gray.xrnc",
@@ -2858,7 +2870,8 @@
    "url": "https://cdn.discordapp.com/attachments/886251167909290005/886251272985018419/Titanium-gray.xrnc",
    "sha256": "7a8a0771c6b433bf8a46ddf9bdd2005ef18762a13e10be0d68150ab65386be6c",
    "size_bytes": 5048,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc886692572368621668_Colorful_beauty_raised_Buttoncontrast.xrnc",
@@ -2873,7 +2886,8 @@
    "url": "https://cdn.discordapp.com/attachments/886224724659691540/886692572368621668/Colorful_beauty_raised_Buttoncontrast.xrnc",
    "sha256": "d404cd713baea3f87da853372d9d70925be6c9641d880dc90cb9f6095d1c926c",
    "size_bytes": 5070,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc888165064262164511_Digital_Camo_Theme_Mk.2.xrnc",
@@ -2888,7 +2902,8 @@
    "url": "https://cdn.discordapp.com/attachments/886225365830340639/888165064262164511/Digital_Camo_Theme_Mk.2.xrnc",
    "sha256": "6ef3d10e9220d0e2dd40214a5303388aa82c2ee0621248a3c84bbf078ec222ca",
    "size_bytes": 5114,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc888164864273551370_Emerald-Black-Beauty_Amber.xrnc",
@@ -2903,7 +2918,8 @@
    "url": "https://cdn.discordapp.com/attachments/886225468985049130/888164864273551370/Emerald-Black-Beauty_Amber.xrnc",
    "sha256": "4d08cd47455f36aa99bce306c4d759c2a0a30b33dd0dd58de0f64d98f91c9468",
    "size_bytes": 5043,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc888164885094084608_Emerald-Black-Beauty_Green.xrnc",
@@ -2918,7 +2934,8 @@
    "url": "https://cdn.discordapp.com/attachments/886225468985049130/888164885094084608/Emerald-Black-Beauty_Green.xrnc",
    "sha256": "c0a7f32fee2736db095e763afb13bad40ed9954777dffde15d14513584a0730d",
    "size_bytes": 5042,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc889582996439592980_White_Clearness.xrnc",
@@ -2933,7 +2950,8 @@
    "url": "https://cdn.discordapp.com/attachments/886226253177315339/889582996439592980/White_Clearness.xrnc",
    "sha256": "5d71a3a2906af76525d3982733da6d56dc52880df66ee8b1740451b6102bdb54",
    "size_bytes": 5098,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc891022142433550426_Ableton_Remix_Final.xrnc",
@@ -2948,7 +2966,8 @@
    "url": "https://cdn.discordapp.com/attachments/891001366896590918/891022142433550426/Ableton_Remix_Final.xrnc",
    "sha256": "23c45be1c39df2f1eeb9fbd4bec898fdb38fa5afbb200ce59ace93c63da133c3",
    "size_bytes": 5087,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc894378380798099486_sakura-LCD_Theme.xrnc",
@@ -2963,7 +2982,8 @@
    "url": "https://cdn.discordapp.com/attachments/892988506496962570/894378380798099486/sakura-LCD_Theme.xrnc",
    "sha256": "e92f6d736f9866d5fe0deaa2fcd0c6c1d6b675add957b18bd7cf1bd242cd03d7",
    "size_bytes": 5037,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc916341807326052443_Platinum_Gray.xrnc",
@@ -2978,7 +2998,8 @@
    "url": "https://cdn.discordapp.com/attachments/910609179469836288/916341807326052443/Platinum_Gray.xrnc",
    "sha256": "17a472b02afbd2903f849227bd317e42bfe90196067b457b66e40d8a9d5f7901",
    "size_bytes": 5177,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc916341807468662824_Platinum_Gray_2.xrnc",
@@ -2993,7 +3014,8 @@
    "url": "https://cdn.discordapp.com/attachments/910609179469836288/916341807468662824/Platinum_Gray_2.xrnc",
    "sha256": "9c31dcc95c8233ce6ddb0abbb6657d89c8a6585804622f0bb9945c1f12e05d78",
    "size_bytes": 5165,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc926486004385329162_logic.xrnc",
@@ -3008,7 +3030,8 @@
    "url": "https://cdn.discordapp.com/attachments/926483620900798505/926486004385329162/logic.xrnc",
    "sha256": "e30ef825bedfc607a9905d6b0d410b4c2b5a5f35929cb3ab6fa0f4725e42a520",
    "size_bytes": 5072,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc932726519451746304_Logic_MkII.xrnc",
@@ -3023,7 +3046,8 @@
    "url": "https://cdn.discordapp.com/attachments/926483620900798505/932726519451746304/Logic_MkII.xrnc",
    "sha256": "253df5db1dcb270b10f3a5c5796d19cf0f102ecfed1be0195524cac1556d6275",
    "size_bytes": 5093,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc932640337137139762_fladd_CM2.xrnc",
@@ -3038,7 +3062,8 @@
    "url": "https://cdn.discordapp.com/attachments/932638781050339338/932640337137139762/fladd_CM2.xrnc",
    "sha256": "2ac7935320687b0c0691a063465d01e248bb21a69597abb8ccb5dd4d0c6df50c",
    "size_bytes": 5143,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc943337868137467944_Impulsetracker10.7.3.5.6.2_inv_selectionF.xrnc",
@@ -3053,7 +3078,8 @@
    "url": "https://cdn.discordapp.com/attachments/941874758277013554/943337868137467944/Impulsetracker10.7.3.5.6.2_inv_selectionF.xrnc",
    "sha256": "b98b45778700cd0fbbea3c973ea6cccf8268e47ce09e5cd5e2723591e912716e",
    "size_bytes": 5085,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc943558564486709269_Impulsetracker10.7.3.5.6.2_inv_selectionF_Strong_Body.xrnc",
@@ -3068,7 +3094,8 @@
    "url": "https://cdn.discordapp.com/attachments/941874758277013554/943558564486709269/Impulsetracker10.7.3.5.6.2_inv_selectionF_Strong_Body.xrnc",
    "sha256": "640707d09d5afad5e102a17e0ed2639416276a47d960ba34e49cc87fecb46e1e",
    "size_bytes": 5088,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc943337186210771025_Impulsetracker10.7.3.5.6FF.xrnc",
@@ -3083,7 +3110,8 @@
    "url": "https://cdn.discordapp.com/attachments/941874758277013554/943337186210771025/Impulsetracker10.7.3.5.6FF.xrnc",
    "sha256": "7a176fc29a9391ec37743d660427e0718fe8431a54770baed23f7544d5bd6104",
    "size_bytes": 5086,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc943337867596406874_Impulsetracker10.7.3.5.6FF_alternativ.xrnc",
@@ -3098,7 +3126,8 @@
    "url": "https://cdn.discordapp.com/attachments/941874758277013554/943337867596406874/Impulsetracker10.7.3.5.6FF_alternativ.xrnc",
    "sha256": "0c37baa3115e96c035a4659dcaed8dbb0f18694437f5efdf4a94858a05e44c3b",
    "size_bytes": 5085,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc943337186051371058_Impulsetracker10.7.3.5.6FFF.xrnc",
@@ -3113,7 +3142,8 @@
    "url": "https://cdn.discordapp.com/attachments/941874758277013554/943337186051371058/Impulsetracker10.7.3.5.6FFF.xrnc",
    "sha256": "fa6e6276e297d1485c62550fb0b93999893cbf93960d69e4fe2d2ada82b08721",
    "size_bytes": 5086,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc943337186491785286_Impulsetracker10.7.3.5.6FFFF.xrnc",
@@ -3128,7 +3158,8 @@
    "url": "https://cdn.discordapp.com/attachments/941874758277013554/943337186491785286/Impulsetracker10.7.3.5.6FFFF.xrnc",
    "sha256": "57cfc867964a6f7ad5d26c3f4c3840a62a003786f68d9a5beea53619b0c2fbdc",
    "size_bytes": 5086,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc946169257220272188_Imperial_Document_Final.xrnc",
@@ -3143,7 +3174,8 @@
    "url": "https://cdn.discordapp.com/attachments/945737405321863221/946169257220272188/Imperial_Document_Final.xrnc",
    "sha256": "b11308288584ac96bed2e434f7ea64149697376c2f99b75cb73a24668329820a",
    "size_bytes": 5122,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc946169299242983484_Imperial_Document_Final_Normalized_VU_Meters.xrnc",
@@ -3158,7 +3190,8 @@
    "url": "https://cdn.discordapp.com/attachments/945737405321863221/946169299242983484/Imperial_Document_Final_Normalized_VU_Meters.xrnc",
    "sha256": "87390791da5ea338a91db9db0f7e9612f42a82c7393acf9d0068d45c9450ca3d",
    "size_bytes": 5120,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc947274091407224892_Imperial_Document_Final_Monochrom.xrnc",
@@ -3173,7 +3206,8 @@
    "url": "https://cdn.discordapp.com/attachments/947271080626761758/947274091407224892/Imperial_Document_Final_Monochrom.xrnc",
    "sha256": "0a6906d612c739c8223a4dbcf7ce999dba04ea9d4a13695216d43ace7e8e917a",
    "size_bytes": 5177,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc947866903840432219_Imperial_Document_Satinred_variant_final.xrnc",
@@ -3188,7 +3222,8 @@
    "url": "https://cdn.discordapp.com/attachments/945737405321863221/947866903840432219/Imperial_Document_Satinred_variant_final.xrnc",
    "sha256": "9ede21115a186d896391306de86b42631bd37dd757a1352a183d12dc54e33ac4",
    "size_bytes": 5158,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc948446183230169108_Imperial_Document_Blue_Velvet_variant_final.xrnc",
@@ -3203,7 +3238,8 @@
    "url": "https://cdn.discordapp.com/attachments/945737405321863221/948446183230169108/Imperial_Document_Blue_Velvet_variant_final.xrnc",
    "sha256": "1917b97d7b2a08871705afc7892410169732f317a5c42c25868c7e8fbd04443e",
    "size_bytes": 5154,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc948448956919185438_White_Clearness_more_saturation3_.xrnc",
@@ -3218,7 +3254,8 @@
    "url": "https://cdn.discordapp.com/attachments/886226253177315339/948448956919185438/White_Clearness_more_saturation3_.xrnc",
    "sha256": "3080358b6b2b7df71b28d504e96c2b0a6a9a983b7b38846f8677c0385e8328fa",
    "size_bytes": 5097,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc952638628079759400_Impulsetracker10.7.3.5.6FFF_lower_saturation.xrnc",
@@ -3233,7 +3270,8 @@
    "url": "https://cdn.discordapp.com/attachments/941874758277013554/952638628079759400/Impulsetracker10.7.3.5.6FFF_lower_saturation.xrnc",
    "sha256": "336ec30d289c495d56a4b26c4dff70044791cf27097c26e6dd678026171013f6",
    "size_bytes": 5117,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc952990720711602217_Nexus_Classic_Theme_V1_Final.xrnc",
@@ -3248,7 +3286,8 @@
    "url": "https://cdn.discordapp.com/attachments/952640458637590580/952990720711602217/Nexus_Classic_Theme_V1_Final.xrnc",
    "sha256": "9f765477f0cb8b3fece4a31bd17d25218404a875cc0e40cca27da54131d1d2a9",
    "size_bytes": 5095,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc955463123865853952_Earl_of_Grey_Final.xrnc",
@@ -3263,7 +3302,8 @@
    "url": "https://cdn.discordapp.com/attachments/955460818777026561/955463123865853952/Earl_of_Grey_Final.xrnc",
    "sha256": "c5cc8c483c705e1f4675759cf7fd9048203835180f93c386849d20e0cfba1969",
    "size_bytes": 5098,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc955883247513010256_Imperial_Document_Blue_Velvet_variant_final_v6.xrnc",
@@ -3278,7 +3318,8 @@
    "url": "https://cdn.discordapp.com/attachments/945737405321863221/955883247513010256/Imperial_Document_Blue_Velvet_variant_final_v6.xrnc",
    "sha256": "2f4f663bf45b2ce87476055fc62d115db734061a6d5ca8bbea44763f83161baf",
    "size_bytes": 5162,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc956395180112625684_Nexus_Classic_Theme_Full_Inverse_Final2.xrnc",
@@ -3293,7 +3334,8 @@
    "url": "https://cdn.discordapp.com/attachments/952640458637590580/956395180112625684/Nexus_Classic_Theme_Full_Inverse_Final2.xrnc",
    "sha256": "50a998c59bdf3b1aaef99cb77e99e2348598a5e60924fb79b3aab54705e144e0",
    "size_bytes": 5082,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc959924813781155920_Kraken9_Versuch2.xrnc",
@@ -3308,7 +3350,8 @@
    "url": "https://cdn.discordapp.com/attachments/944057954896859146/959924813781155920/Kraken9_Versuch2.xrnc",
    "sha256": "aad727e818ed8ddcdb7e4cbadf69b61dd5914149a0f14e3cb4fe89ab0ee42fe0",
    "size_bytes": 5132,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc959877046895538176_Renoise_Theme_reinterpreted_other_Texture_better_scrollbars.xrnc",
@@ -3323,7 +3366,8 @@
    "url": "https://cdn.discordapp.com/attachments/886275646316224572/959877046895538176/Renoise_Theme_reinterpreted_other_Texture_better_scrollbars.xrnc",
    "sha256": "82c4831e8f10aa66d8d75750afe12dc6fa5d6f02ecc258c89f75c23d48749427",
    "size_bytes": 5105,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc963454615226052688_Blue_Shade_12.xrnc",
@@ -3338,7 +3382,8 @@
    "url": "https://cdn.discordapp.com/attachments/963205256144101397/963454615226052688/Blue_Shade_12.xrnc",
    "sha256": "6ff7965a469cc32c2e81fdb3d7a786c7acf7631871fb433bb0aa0328c9badf8b",
    "size_bytes": 5130,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc963612107969015858_Norton_Theme6.8.xrnc",
@@ -3353,7 +3398,8 @@
    "url": "https://cdn.discordapp.com/attachments/961015005036306512/963612107969015858/Norton_Theme6.8.xrnc",
    "sha256": "24ead6f7f3702dcb698ff2306c4e2cbfe69bfd78afb4d30c1d2ccd19b540acf6",
    "size_bytes": 5114,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc965654972945539152_Renoise_Theme_Reinterpreted_second_try_10.xrnc",
@@ -3368,7 +3414,8 @@
    "url": "https://cdn.discordapp.com/attachments/886275646316224572/965654972945539152/Renoise_Theme_Reinterpreted_second_try_10.xrnc",
    "sha256": "b9dba790639c48d370503b4d885f4c23f42654fb0f25b423b6863a1664d625bd",
    "size_bytes": 5109,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc966042907276640307_propulse-schism18_Fontchange_higher_contrast.xrnc",
@@ -3383,7 +3430,8 @@
    "url": "https://cdn.discordapp.com/attachments/966034331166466148/966042907276640307/propulse-schism18_Fontchange_higher_contrast.xrnc",
    "sha256": "db606669e9501d4bc88c04fbee508b2b9233681becb471d4507d6386843ca733",
    "size_bytes": 5063,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc968607723153412166_Nexus_Classic_Theme_Full_Inverse_Final2_brighter1_black_points.xrnc",
@@ -3398,7 +3446,8 @@
    "url": "https://cdn.discordapp.com/attachments/952640458637590580/968607723153412166/Nexus_Classic_Theme_Full_Inverse_Final2_brighter1_black_points.xrnc",
    "sha256": "e50dcd9fae2f984b17039476dfa50c98d6c7363010218b069e536ef656724383",
    "size_bytes": 5108,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc988511359186645022_cow_spots_last.xrnc",
@@ -3413,7 +3462,8 @@
    "url": "https://cdn.discordapp.com/attachments/988509777715929108/988511359186645022/cow_spots_last.xrnc",
    "sha256": "9f481c40dad25cc3d858f66900b0dc91c3a772dfd05bc4a15598f5616c0d586a",
    "size_bytes": 5077,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1007707498603618334_Neocortex_White_Final_Inversbuttons.xrnc",
@@ -3428,7 +3478,8 @@
    "url": "https://cdn.discordapp.com/attachments/941497053803061369/1007707498603618334/Neocortex_White_Final_Inversbuttons.xrnc",
    "sha256": "6e29a217c3635c4cc744da6f37d7087a28daf98bbe71e40c10b178531027492f",
    "size_bytes": 5102,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1007707498897223740_Neocortex_White_Final_Inversbuttons__Softbars.xrnc",
@@ -3443,7 +3494,8 @@
    "url": "https://cdn.discordapp.com/attachments/941497053803061369/1007707498897223740/Neocortex_White_Final_Inversbuttons__Softbars.xrnc",
    "sha256": "820c0bed571845e582bce7502833d736fbfaa20972bbb40a610f10c23db49d7f",
    "size_bytes": 5102,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1007707497945104385_Neocortex_White_Final_Softbuttons.xrnc",
@@ -3458,7 +3510,8 @@
    "url": "https://cdn.discordapp.com/attachments/941497053803061369/1007707497945104385/Neocortex_White_Final_Softbuttons.xrnc",
    "sha256": "70bf5bc3ff38d5134b31e7d90195c44d67009743a3a2f36bc88826702e65e6ba",
    "size_bytes": 5099,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1007707498318417940_Neocortex_White_Final_Softbuttons__Softbars.xrnc",
@@ -3473,7 +3526,8 @@
    "url": "https://cdn.discordapp.com/attachments/941497053803061369/1007707498318417940/Neocortex_White_Final_Softbuttons__Softbars.xrnc",
    "sha256": "16efa578dcc4d9f47cb8dfea61dfa7adcb979247c743d89ff63007ba63986cfe",
    "size_bytes": 5099,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1010860466467254292_Autumn_Beauty_MK2_Final3_vu.xrnc",
@@ -3488,7 +3542,8 @@
    "url": "https://cdn.discordapp.com/attachments/886224954234912798/1010860466467254292/Autumn_Beauty_MK2_Final3_vu.xrnc",
    "sha256": "4582964bbf29c1a5c07b4898bd907fa3bc416ae168e98fb0879bfadb2d85e780",
    "size_bytes": 5041,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1016817718894268487_Autumn_Beauty_MK2_Final3_vu_more_Contrast3.xrnc",
@@ -3503,7 +3558,8 @@
    "url": "https://cdn.discordapp.com/attachments/886224954234912798/1016817718894268487/Autumn_Beauty_MK2_Final3_vu_more_Contrast3.xrnc",
    "sha256": "f4c806213efd66a397a1cf91eef5cff3229dcabf46c5e12c87b5e84cc88d3a9a",
    "size_bytes": 5042,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1017804497575231608_Nexus_red8_black.xrnc",
@@ -3518,7 +3574,8 @@
    "url": "https://cdn.discordapp.com/attachments/952640458637590580/1017804497575231608/Nexus_red8_black.xrnc",
    "sha256": "9be1a2e1cefde334358ae6986f82647e6abb5f5a63a96a73f3aa592944e0c4db",
    "size_bytes": 5089,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1017804497235497082_Nexus_red8_white.xrnc",
@@ -3533,7 +3590,8 @@
    "url": "https://cdn.discordapp.com/attachments/952640458637590580/1017804497235497082/Nexus_red8_white.xrnc",
    "sha256": "c2f2470c7bd2c454f56d1612ecf3db7b5e9ee28b5093c2a3d7f3e9a77aa43f0c",
    "size_bytes": 5095,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1018814715746598972_yellow_mellow_Final.xrnc",
@@ -3548,7 +3606,8 @@
    "url": "https://cdn.discordapp.com/attachments/1018813998315094126/1018814715746598972/yellow_mellow_Final.xrnc",
    "sha256": "6fa4350b8efab12df8fe1548005ae687167b98e63bbf7488acad45b2a0031442",
    "size_bytes": 5009,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1032519928277913620_crystal_palace_1.0_Final.xrnc",
@@ -3563,7 +3622,8 @@
    "url": "https://cdn.discordapp.com/attachments/1032515701996535809/1032519928277913620/crystal_palace_1.0_Final.xrnc",
    "sha256": "022af7c8b1b9dd610ec97470a2c163f9e513c82c58a382a7a8fc3f063db54b0c",
    "size_bytes": 5042,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1072553826046980177_Orange_New_Final.xrnc",
@@ -3578,7 +3638,8 @@
    "url": "https://cdn.discordapp.com/attachments/1022592995918352384/1072553826046980177/Orange_New_Final.xrnc",
    "sha256": "5689bf9b821d4c96c85f1df33c912e92adbfb8bbd821b4faac8ba7fe55b17c8a",
    "size_bytes": 4993,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1072438051005009980_Yellow_Mellow_MK2_Final_fixed2.xrnc",
@@ -3593,7 +3654,8 @@
    "url": "https://cdn.discordapp.com/attachments/1018813998315094126/1072438051005009980/Yellow_Mellow_MK2_Final_fixed2.xrnc",
    "sha256": "b89d42f0b1e09d808bcb3c7475b80ee40d6946ad01c0f114568315a296cabef0",
    "size_bytes": 4984,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1072361296395251742_Yellow_Mellow_MK2_Final_fixed2_softcontrast3.xrnc",
@@ -3608,7 +3670,8 @@
    "url": "https://cdn.discordapp.com/attachments/1018813998315094126/1072361296395251742/Yellow_Mellow_MK2_Final_fixed2_softcontrast3.xrnc",
    "sha256": "a922605bef585a55ef9f3db6e8708eb7df3cd11f9615361d7a5a1a0dbfff817a",
    "size_bytes": 5058,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1072361297255084105_Yellow_Mellow_MK2_Final_fixed2_softcontrast4_Inverse_Pattern_Highlight.xrnc",
@@ -3623,7 +3686,8 @@
    "url": "https://cdn.discordapp.com/attachments/1018813998315094126/1072361297255084105/Yellow_Mellow_MK2_Final_fixed2_softcontrast4_Inverse_Pattern_Highlight.xrnc",
    "sha256": "5dc179de3dc1d761c6a852634c3cc9f60a53dda5c77187dbdb229170fcae7053",
    "size_bytes": 5063,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1072361296776925244_Yellow_Mellow_MK2_Final_fixed2_softcontrast4_Pattern_Highlight.xrnc",
@@ -3638,7 +3702,8 @@
    "url": "https://cdn.discordapp.com/attachments/1018813998315094126/1072361296776925244/Yellow_Mellow_MK2_Final_fixed2_softcontrast4_Pattern_Highlight.xrnc",
    "sha256": "be67bd7fd6ddfa68c8b7fd91e37c16d272a6c6b6943afdb8a2e2d9eb16e16530",
    "size_bytes": 5063,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1072361298190413874_Yellow_Mellow_MK2_Final_fixed2_softcontrast4_Pattern_maxsoft.xrnc",
@@ -3653,7 +3718,8 @@
    "url": "https://cdn.discordapp.com/attachments/1018813998315094126/1072361298190413874/Yellow_Mellow_MK2_Final_fixed2_softcontrast4_Pattern_maxsoft.xrnc",
    "sha256": "dff52e061a154ad0ed4bbadbfbddb6b769f2a4db353e1d14d238a4980e488fe4",
    "size_bytes": 5064,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1072361297712255057_Yellow_Mellow_MK2_Final_fixed2_softcontrast4_Pattern_medsoft.xrnc",
@@ -3668,7 +3734,8 @@
    "url": "https://cdn.discordapp.com/attachments/1018813998315094126/1072361297712255057/Yellow_Mellow_MK2_Final_fixed2_softcontrast4_Pattern_medsoft.xrnc",
    "sha256": "df6a60f377083289ea3ed5b8eecbf436fedb429aac8a2e4fe0df2fe7494848ba",
    "size_bytes": 5062,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1072913937357619261_yellow_mellow_Final.xrnc",
@@ -3683,7 +3750,8 @@
    "url": "https://cdn.discordapp.com/attachments/1018813998315094126/1072913937357619261/yellow_mellow_Final.xrnc",
    "sha256": "4e5411ae0f99543e572979c24f9b2be4c3a2a2b7c5c65b09eeee64d994b414ce",
    "size_bytes": 4991,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1077719842121060503_Competition_theme_Final.xrnc",
@@ -3698,7 +3766,8 @@
    "url": "https://cdn.discordapp.com/attachments/1011214529620881488/1077719842121060503/Competition_theme_Final.xrnc",
    "sha256": "d4a316f9356b5c4c61a0d47f544743a2a5bbb2d1ff1717c2f4879bacd314aedb",
    "size_bytes": 5098,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1114732897727942757_Caliostro_Theme_Final.xrnc",
@@ -3713,7 +3782,8 @@
    "url": "https://cdn.discordapp.com/attachments/1114721966650294292/1114732897727942757/Caliostro_Theme_Final.xrnc",
    "sha256": "f70f076d26059b2b242ae6a2ff1050b5c8d079118d9ce9e6e794d0a2513681f7",
    "size_bytes": 5060,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1127964575631953960_Amiga_OS_Theme_Final.xrnc",
@@ -3728,7 +3798,8 @@
    "url": "https://cdn.discordapp.com/attachments/1127958436454334555/1127964575631953960/Amiga_OS_Theme_Final.xrnc",
    "sha256": "4071d143b3a619c5fcd4826e365079d4f7ee1ffd2cb9731e56cb82c3d39603cb",
    "size_bytes": 5059,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1127968081931681844_Amiga_OS_Theme_Final_heller.xrnc",
@@ -3743,7 +3814,8 @@
    "url": "https://cdn.discordapp.com/attachments/1127958436454334555/1127968081931681844/Amiga_OS_Theme_Final_heller.xrnc",
    "sha256": "9cd98a649931c682ce3716cf16a846a518ebd534d200567613986f3e63dacf68",
    "size_bytes": 5070,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1128037928686342245_Amiga_OS_Theme_Final_heller_1.xrnc",
@@ -3758,7 +3830,8 @@
    "url": "https://cdn.discordapp.com/attachments/1127958436454334555/1128037928686342245/Amiga_OS_Theme_Final_heller_1.xrnc",
    "sha256": "7c3e5cff7407a7891c9b13357aaf53227581fcc38f9495f3ae42e9e2a91f75d7",
    "size_bytes": 5078,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1128037927990087750_Amiga_OS_Theme_Final_heller_2.xrnc",
@@ -3773,7 +3846,8 @@
    "url": "https://cdn.discordapp.com/attachments/1127958436454334555/1128037927990087750/Amiga_OS_Theme_Final_heller_2.xrnc",
    "sha256": "c1d330ad92e7a347470a7616cd888fd04ee930d44469cbb2d6f07d546cbf3a56",
    "size_bytes": 5078,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1128053479659819071_Amiga_OS_Theme_Final_heller_4.xrnc",
@@ -3788,7 +3862,8 @@
    "url": "https://cdn.discordapp.com/attachments/1127958436454334555/1128053479659819071/Amiga_OS_Theme_Final_heller_4.xrnc",
    "sha256": "840c53959bb9baaeaa96cb207c9227994275e1290817a0ea12b331b0ed488d43",
    "size_bytes": 5078,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1128053479252963400_Amiga_OS_Theme_Final_heller_5.xrnc",
@@ -3803,7 +3878,8 @@
    "url": "https://cdn.discordapp.com/attachments/1127958436454334555/1128053479252963400/Amiga_OS_Theme_Final_heller_5.xrnc",
    "sha256": "612bccad8f5cbe06faaba2cdb054b856a7f47dafb6b5a5913a8b8946aaa3a01c",
    "size_bytes": 5078,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1128037930087239720_Amiga_OS_Theme_Final_other.xrnc",
@@ -3818,7 +3894,8 @@
    "url": "https://cdn.discordapp.com/attachments/1127958436454334555/1128037930087239720/Amiga_OS_Theme_Final_other.xrnc",
    "sha256": "8ab8afee1ab7d206ba0ae352cbbd3a549e2b248e8eeede4614ec78bb231e6d09",
    "size_bytes": 5059,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1128037929390972928_Amiga_OS_Theme_Final_other_2.xrnc",
@@ -3833,7 +3910,8 @@
    "url": "https://cdn.discordapp.com/attachments/1127958436454334555/1128037929390972928/Amiga_OS_Theme_Final_other_2.xrnc",
    "sha256": "d34f222519c516eceea7164bfbea2d1ec904ac274bee3c1f9137bef25605b129",
    "size_bytes": 5066,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1128037929097379900_Amiga_OS_Theme_Final_other_3.xrnc",
@@ -3848,7 +3926,8 @@
    "url": "https://cdn.discordapp.com/attachments/1127958436454334555/1128037929097379900/Amiga_OS_Theme_Final_other_3.xrnc",
    "sha256": "ffe964770e655f54c12cfd2b3649edb9f3b3b2d5fceaa7a9716194297ac9f1eb",
    "size_bytes": 5067,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1128037928350793868_Amiga_OS_Theme_Final_other_4.xrnc",
@@ -3863,7 +3942,8 @@
    "url": "https://cdn.discordapp.com/attachments/1127958436454334555/1128037928350793868/Amiga_OS_Theme_Final_other_4.xrnc",
    "sha256": "842e8fd5297cb0d29aac90832db780633298f80d74dc106e493d2ba58a11463e",
    "size_bytes": 5067,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1128406317573353482_Amiga_OS_Theme_Final_heller_5_stronger_VU_meter.xrnc",
@@ -3878,7 +3958,8 @@
    "url": "https://cdn.discordapp.com/attachments/1127958436454334555/1128406317573353482/Amiga_OS_Theme_Final_heller_5_stronger_VU_meter.xrnc",
    "sha256": "7c6801d58e165562e693a96aba719021ae1344b38adcbc184e9b30766af88666",
    "size_bytes": 5077,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1128405062046195763_Amiga_OS_Theme_Final_heller_5_stronger_VU_meter1.xrnc",
@@ -3893,7 +3974,8 @@
    "url": "https://cdn.discordapp.com/attachments/1127958436454334555/1128405062046195763/Amiga_OS_Theme_Final_heller_5_stronger_VU_meter1.xrnc",
    "sha256": "1e71b1102e32aa6c3bd0b815e867ad79710c4a05f574ec7a613ac34369b7e8f1",
    "size_bytes": 5071,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1154726306664157216_Nightshade_1.0_Final.xrnc",
@@ -3908,7 +3990,8 @@
    "url": "https://cdn.discordapp.com/attachments/1090667892191789108/1154726306664157216/Nightshade_1.0_Final.xrnc",
    "sha256": "0e03781e5a26983d191157bc8fa29efb47c8efebbfb1149e9da0739edd9b447d",
    "size_bytes": 5099,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1157839400290492436_Nightshade_1.0_Final_tweaked5.xrnc",
@@ -3923,7 +4006,8 @@
    "url": "https://cdn.discordapp.com/attachments/1090667892191789108/1157839400290492436/Nightshade_1.0_Final_tweaked5.xrnc",
    "sha256": "71c8d0016676b2f6cb6d750ac50e7c18e64df6ee844fa12e510ccdae5412911c",
    "size_bytes": 5096,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1174872548538863636_Cyannotic_Final_V1.01.xrnc",
@@ -3938,7 +4022,8 @@
    "url": "https://cdn.discordapp.com/attachments/1174869065098088528/1174872548538863636/Cyannotic_Final_V1.01.xrnc",
    "sha256": "ce59d05006d48eaeb5c0266027b671bb4d726ed7c94a6471fd7fc3e01faffe82",
    "size_bytes": 5084,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1174872549054742528_Cyannotic_Final_V1.01_lowered_Pattern_contrast.xrnc",
@@ -3953,7 +4038,8 @@
    "url": "https://cdn.discordapp.com/attachments/1174869065098088528/1174872549054742528/Cyannotic_Final_V1.01_lowered_Pattern_contrast.xrnc",
    "sha256": "f6de4238f0204c7db86bf3430d2ad29498e57328442629f272650699857d4a5b",
    "size_bytes": 5084,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1176667189777006592_Cyannotic_Final_V1.02_Release_Version.xrnc",
@@ -3968,7 +4054,8 @@
    "url": "https://cdn.discordapp.com/attachments/1174869065098088528/1176667189777006592/Cyannotic_Final_V1.02_Release_Version.xrnc",
    "sha256": "ebdb8c9d71651418bce7fa545f283f0e9b6b16000beb66fcad94afd8919717cd",
    "size_bytes": 5077,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1246573286826180628_Noble_Dark_RC1_oversteer_fixed.xrnc",
@@ -3983,7 +4070,8 @@
    "url": "https://cdn.discordapp.com/attachments/1245699091753603122/1246573286826180628/Noble_Dark_RC1_oversteer_fixed.xrnc",
    "sha256": "d2319942ab69b5ce5721b8bacc709998f1fae4c0181b2ce8d591d2ffc42eea3b",
    "size_bytes": 5101,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1256419767850631301_solarized_plastic_RC1.xrnc",
@@ -3998,7 +4086,8 @@
    "url": "https://cdn.discordapp.com/attachments/1256054639133200504/1256419767850631301/solarized_plastic_RC1.xrnc",
    "sha256": "a8b549070b7465aaa417a017877c9751a70c1995f1b0698ae32211e050a1b533",
    "size_bytes": 5159,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1256779942834737232_solarized_plastic_RC2.xrnc",
@@ -4013,7 +4102,8 @@
    "url": "https://cdn.discordapp.com/attachments/1256054639133200504/1256779942834737232/solarized_plastic_RC2.xrnc",
    "sha256": "a22d5ad0132f6f2e91fc7081870873eefd3036806d22f10521cd8df52ab8c2c3",
    "size_bytes": 5159,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1282375120119140464_Graphite_RC1.xrnc",
@@ -4028,7 +4118,8 @@
    "url": "https://cdn.discordapp.com/attachments/1282097458058493962/1282375120119140464/Graphite_RC1.xrnc",
    "sha256": "2223e022c56a5d329fe6fa9a096c1781c053c3060feb386cd718a30eb7d7bb90",
    "size_bytes": 5156,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1283088310423650414_graphiteRedux.xrnc",
@@ -4043,7 +4134,8 @@
    "url": "https://cdn.discordapp.com/attachments/1283084695701291018/1283088310423650414/graphiteRedux.xrnc",
    "sha256": "6a39b1af9b654393d8edad98c7516a7a338c20ae4f98da6b41f6493bea5845cb",
    "size_bytes": 5154,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1283577742012448810_Graphite_RC1_Peak_warning_fixed.xrnc",
@@ -4058,7 +4150,8 @@
    "url": "https://cdn.discordapp.com/attachments/1282097458058493962/1283577742012448810/Graphite_RC1_Peak_warning_fixed.xrnc",
    "sha256": "79389592d7ca1650d16e5a4279f4a02ecfdaf49c95345e140d78cd0da61d4e67",
    "size_bytes": 5153,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1285612850294947973_Yellow_Harmony.xrnc",
@@ -4073,7 +4166,8 @@
    "url": "https://cdn.discordapp.com/attachments/1018813998315094126/1285612850294947973/Yellow_Harmony.xrnc",
    "sha256": "f0609979e53c12ab36fc29492b87d4c7ed3605b6768ced6fbe20bc6abc13fb3e",
    "size_bytes": 5036,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1323727133079502869_NomadRC1.xrnc",
@@ -4088,7 +4182,8 @@
    "url": "https://cdn.discordapp.com/attachments/1323721822537121833/1323727133079502869/NomadRC1.xrnc",
    "sha256": "ce0e0036f64f58f5d258d73e829f5a94537db5641a5d90950c7505a4dab64da3",
    "size_bytes": 5124,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1323803727475380375_Nomad_fullback1.xrnc",
@@ -4103,7 +4198,8 @@
    "url": "https://cdn.discordapp.com/attachments/1323721822537121833/1323803727475380375/Nomad_fullback1.xrnc",
    "sha256": "cd2f9a0cc81c7eb80d89f51f0a6c540446622d157e7fe19af3fc83e8e23050df",
    "size_bytes": 5126,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1327027518141628479_last_nomad_fullback_MkII.xrnc",
@@ -4118,7 +4214,8 @@
    "url": "https://cdn.discordapp.com/attachments/1323721822537121833/1327027518141628479/last_nomad_fullback_MkII.xrnc",
    "sha256": "ca043a20145abc058701f5fafc8c5a201b55d3a516c5e04ecad3fc9f46c715f2",
    "size_bytes": 5122,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1420423892245286964_Sandpaper_1.0.xrnc",
@@ -4133,7 +4230,8 @@
    "url": "https://cdn.discordapp.com/attachments/1420420211647189182/1420423892245286964/Sandpaper_1.0.xrnc",
    "sha256": "52d3cf9c56877ca8a2101def9753e10012204561bc1f0aced7f614e53b678224",
    "size_bytes": 4911,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1421155141033263114_Sandpaper_grey.xrnc",
@@ -4148,7 +4246,8 @@
    "url": "https://cdn.discordapp.com/attachments/1420420211647189182/1421155141033263114/Sandpaper_grey.xrnc",
    "sha256": "c78997bdba852ed028f422c62df42dfef0c826e68966a5553b87b575981b4b55",
    "size_bytes": 4909,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1422258935146221690_Sandpaper_grey_dimmed6.xrnc",
@@ -4163,7 +4262,8 @@
    "url": "https://cdn.discordapp.com/attachments/1420420211647189182/1422258935146221690/Sandpaper_grey_dimmed6.xrnc",
    "sha256": "903018858de0cf13261af463eb7a7c63490c6ad8e2c6a881c809ee8e1eca2db6",
    "size_bytes": 4915,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1431641399232827412_blue_steel_Final_1.13.xrnc",
@@ -4178,7 +4278,8 @@
    "url": "https://cdn.discordapp.com/attachments/1431639659628466217/1431641399232827412/blue_steel_Final_1.13.xrnc",
    "sha256": "4fb7267e9dc9a274118d4b5e9c9a87bef82ed229de21e5f2c9a100d93502ed23",
    "size_bytes": 4876,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1432185076594118726_Hello_kitty_Theme.xrnc",
@@ -4193,7 +4294,8 @@
    "url": "https://cdn.discordapp.com/attachments/1432182548792082432/1432185076594118726/Hello_kitty_Theme.xrnc",
    "sha256": "89a106f1b0f1ea8175ac4b5b35a1122ca65b6de72d3da27a4e984de52ab5ec77",
    "size_bytes": 4876,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1448348251626537045_Octamed8.5_buttons_other4.2.1.xrnc",
@@ -4208,7 +4310,8 @@
    "url": "https://cdn.discordapp.com/attachments/1448334552497131522/1448348251626537045/Octamed8.5_buttons_other4.2.1.xrnc",
    "sha256": "c49ef3665c2df70be562685c13013847cdfae09fd76268ed6110e04bac96196d",
    "size_bytes": 5007,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1448348251907428394_Octamed8.5_buttons_other4.2.2.xrnc",
@@ -4223,7 +4326,8 @@
    "url": "https://cdn.discordapp.com/attachments/1448334552497131522/1448348251907428394/Octamed8.5_buttons_other4.2.2.xrnc",
    "sha256": "2024ac78d765b2c2229edf9a67b38ce9b36cec72548edc7078c603b8ede32285",
    "size_bytes": 5009,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1448348252163543220_Octamed8.5_buttons_other4.2.3.xrnc",
@@ -4238,7 +4342,8 @@
    "url": "https://cdn.discordapp.com/attachments/1448334552497131522/1448348252163543220/Octamed8.5_buttons_other4.2.3.xrnc",
    "sha256": "361446ec5636e09a9b94bb15baef8371ed292bfe83f550de0e080fa8f774f9bf",
    "size_bytes": 5007,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1493902969551323256_Ice_Candy_joule.xrnc",
@@ -4253,7 +4358,8 @@
    "url": "https://cdn.discordapp.com/attachments/1493899740415528970/1493902969551323256/Ice_Candy_joule.xrnc",
    "sha256": "87c26b2fec44376249551684ff9724ca5c4ff1d91f49b77bbaa396cd0c54c570",
    "size_bytes": 5123,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1498671079785234633_DefaultGreener2026.xrnc",
@@ -4268,7 +4374,8 @@
    "url": "https://cdn.discordapp.com/attachments/887765279898214421/1498671079785234633/DefaultGreener2026.xrnc",
    "sha256": "6566a8a4f78417d17a317219b0e560c31814db5fd106d60a87a1b255b23c4c3c",
    "size_bytes": 5108,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1504303075907600545_Oszilloskop_Theme_RC.xrnc",
@@ -4283,7 +4390,8 @@
    "url": "https://cdn.discordapp.com/attachments/1504297910391541760/1504303075907600545/Oszilloskop_Theme_RC.xrnc",
    "sha256": "24fd0f52e6c3cb696326048ce3b1a117128fafca8fb398a4c314b1b45d40eb1a",
    "size_bytes": 4918,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1507345181131673631_Octamed_Rising_RC1.xrnc",
@@ -4298,7 +4406,8 @@
    "url": "https://cdn.discordapp.com/attachments/1448334552497131522/1507345181131673631/Octamed_Rising_RC1.xrnc",
    "sha256": "a52f9f3bf2ba543b810c485314caf53c815f563a89178cebd9ba211bf5d82853",
    "size_bytes": 5024,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
   },
   {
    "file": "dc1532579948026396782_Polaris-blue8.xrnc",
@@ -4313,7 +4422,474 @@
    "url": "https://cdn.discordapp.com/attachments/916907439180382218/1532579948026396782/Polaris-blue8.xrnc",
    "sha256": "47468fbcfaf796aac9599c2546012f1cf1cd7e719b755e1f8cac82bd6b23f83a",
    "size_bytes": 5171,
-   "source": "discord"
+   "source": "discord",
+   "server": "Renoise Themes & Stuff"
+  },
+  {
+   "file": "dc927286860013793300_GJ-FM7.xrnc",
+   "name": "GJ-FM7",
+   "author": null,
+   "posted_by": "dark_evan1",
+   "posted_in": "#📟-themes",
+   "channel_id": "889616096863330374",
+   "message_id": "927286860013793300",
+   "date": "2022-01-02",
+   "original_filename": "GJ-FM7.xrnc",
+   "url": "https://cdn.discordapp.com/attachments/889616096863330374/927286860013793300/GJ-FM7.xrnc",
+   "sha256": "412cc32f997ec3ea73498bfb7a5524205d09aebeaf726f0bbc4a8dcc8ec19ce8",
+   "size_bytes": 5126,
+   "source": "discord",
+   "server": "Renoise Community Server",
+   "context": "FM-7 theme by Renoise forum user grymmjack"
+  },
+  {
+   "file": "dc976623931354153000_Iron_Man.xrnc",
+   "name": "Iron Man",
+   "author": null,
+   "posted_by": "Deleted User",
+   "posted_in": "#📟-themes",
+   "channel_id": "889616096863330374",
+   "message_id": "976623931354153000",
+   "date": "2022-05-18",
+   "original_filename": "Iron_Man.xrnc",
+   "url": "https://cdn.discordapp.com/attachments/889616096863330374/976623931354153000/Iron_Man.xrnc",
+   "sha256": "940be9c4344a024d9a509b5b86939a25802d4605df645828fd77ecfaae3c0af0",
+   "size_bytes": 5083,
+   "source": "discord",
+   "server": "Renoise Community Server"
+  },
+  {
+   "file": "dc977527983030013953_Iron_Man.xrnc",
+   "name": "Iron Man",
+   "author": null,
+   "posted_by": "Deleted User",
+   "posted_in": "#📟-themes",
+   "channel_id": "889616096863330374",
+   "message_id": "977527983030013953",
+   "date": "2022-05-21",
+   "original_filename": "Iron_Man.xrnc",
+   "url": "https://cdn.discordapp.com/attachments/889616096863330374/977527983030013953/Iron_Man.xrnc",
+   "sha256": "6d74e442627f979b996e719bd91ff3afc61a649468d185796392179c607c12c4",
+   "size_bytes": 5089,
+   "source": "discord",
+   "server": "Renoise Community Server",
+   "context": "hey i fixed the colors up"
+  },
+  {
+   "file": "dc977540607906041916_Iron_Man.xrnc",
+   "name": "Iron Man",
+   "author": null,
+   "posted_by": "Deleted User",
+   "posted_in": "#📟-themes",
+   "channel_id": "889616096863330374",
+   "message_id": "977540607906041916",
+   "date": "2022-05-21",
+   "original_filename": "Iron_Man.xrnc",
+   "url": "https://cdn.discordapp.com/attachments/889616096863330374/977540607906041916/Iron_Man.xrnc",
+   "sha256": "fde1cca765be6954288608b23ce11d7cb4f8d5d210776d3207f76aba21fbac7a",
+   "size_bytes": 5125,
+   "source": "discord",
+   "server": "Renoise Community Server",
+   "context": "less saturated, looks better imo"
+  },
+  {
+   "file": "dc980047542077243412_Soft_Pink_EatMe.xrnc",
+   "name": "Soft Pink EatMe",
+   "author": null,
+   "posted_by": "ietmie",
+   "posted_in": "#📟-themes",
+   "channel_id": "889616096863330374",
+   "message_id": "980047542077243412",
+   "date": "2022-05-28",
+   "original_filename": "Soft_Pink_EatMe.xrnc",
+   "url": "https://cdn.discordapp.com/attachments/889616096863330374/980047542077243412/Soft_Pink_EatMe.xrnc",
+   "sha256": "d27571ad032acd1eb37c81dabbb8138fd559083806ce63e2fc9c638e1c3e354c",
+   "size_bytes": 5088,
+   "source": "discord",
+   "server": "Renoise Community Server"
+  },
+  {
+   "file": "dc1058577865328824421_mandy.xrnc",
+   "name": "mandy",
+   "author": null,
+   "posted_by": "jarris0612",
+   "posted_in": "#📟-themes",
+   "channel_id": "889616096863330374",
+   "message_id": "1058577865328824421",
+   "date": "2022-12-31",
+   "original_filename": "mandy.xrnc",
+   "url": "https://cdn.discordapp.com/attachments/889616096863330374/1058577865328824421/mandy.xrnc",
+   "sha256": "ba22ed902a399018a709bb740da73cf5af5c6dc2ce81a9f372c76fbaa7d5855b",
+   "size_bytes": 5141,
+   "source": "discord",
+   "server": "Renoise Community Server"
+  },
+  {
+   "file": "dc1058578397825081384_s3000xl.xrnc",
+   "name": "s3000xl",
+   "author": null,
+   "posted_by": "jarris0612",
+   "posted_in": "#📟-themes",
+   "channel_id": "889616096863330374",
+   "message_id": "1058578397825081384",
+   "date": "2022-12-31",
+   "original_filename": "s3000xl.xrnc",
+   "url": "https://cdn.discordapp.com/attachments/889616096863330374/1058578397825081384/s3000xl.xrnc",
+   "sha256": "6273a23303808e518ab1f190e9cc56db7ba7ef766936befd841058da8ac39af2",
+   "size_bytes": 5134,
+   "source": "discord",
+   "server": "Renoise Community Server"
+  },
+  {
+   "file": "dc1171607690095624272_Black-n-White.xrnc",
+   "name": "Black-n-White",
+   "author": null,
+   "posted_by": "poronen",
+   "posted_in": "#📟-themes",
+   "channel_id": "889616096863330374",
+   "message_id": "1171607690095624272",
+   "date": "2023-11-08",
+   "original_filename": "Black-n-White.xrnc",
+   "url": "https://cdn.discordapp.com/attachments/889616096863330374/1171607690095624272/Black-n-White.xrnc",
+   "sha256": "8d248cac8765e9c957d42ae2d84f7629f6ecce3ef1d4c61ecde2efad975b1dde",
+   "size_bytes": 5124,
+   "source": "discord",
+   "server": "Renoise Community Server",
+   "context": "Simple black and white theme I made. (*It still has syntax highlighting if enabled in settings.*) For all the color haters out there."
+  },
+  {
+   "file": "dc1214390383170297938_unblackforestcake.xrnc",
+   "name": "unblackforestcake",
+   "author": null,
+   "posted_by": "untilde",
+   "posted_in": "#📟-themes",
+   "channel_id": "889616096863330374",
+   "message_id": "1214390383170297938",
+   "date": "2024-03-05",
+   "original_filename": "unblackforestcake.xrnc",
+   "url": "https://cdn.discordapp.com/attachments/889616096863330374/1214390383170297938/unblackforestcake.xrnc",
+   "sha256": "572b5e03d8fee52a9bbc7c2f5dfb0260b2e19b6bb8ca5e09ec2340fd14f256b9",
+   "size_bytes": 5120,
+   "source": "discord",
+   "server": "Renoise Community Server",
+   "context": "based on Colorful (NPC1)"
+  },
+  {
+   "file": "dc1275733929088913418_Hotdog_Stand.xrnc",
+   "name": "Hotdog Stand",
+   "author": null,
+   "posted_by": "esaruoho",
+   "posted_in": "#📟-themes",
+   "channel_id": "889616096863330374",
+   "message_id": "1275733929088913418",
+   "date": "2024-08-21",
+   "original_filename": "Hotdog_Stand.xrnc",
+   "url": "https://cdn.discordapp.com/attachments/889616096863330374/1275733929088913418/Hotdog_Stand.xrnc",
+   "sha256": "abd2a516655cbd24b30f86c39dcdfa5ce8ea5a70026e6e43a50ee57e468e3961",
+   "size_bytes": 5002,
+   "source": "discord",
+   "server": "Renoise Community Server",
+   "context": "woo! just found the hotdog stand theme  on GitHub ( https://github.com/nilsding/hotdog-stand-for-renoise ) - added to Paketti Theme Selector 🙂"
+  },
+  {
+   "file": "dc1275736746260435017_sand_contrast.xrnc",
+   "name": "sand contrast",
+   "author": null,
+   "posted_by": "esaruoho",
+   "posted_in": "#📟-themes",
+   "channel_id": "889616096863330374",
+   "message_id": "1275736746260435017",
+   "date": "2024-08-21",
+   "original_filename": "sand_contrast.xrnc",
+   "url": "https://cdn.discordapp.com/attachments/889616096863330374/1275736746260435017/sand_contrast.xrnc",
+   "sha256": "591c016c35edf0a05217c3747b7212454eacfa2d758e2ed97e6c90fd80234335",
+   "size_bytes": 5114,
+   "source": "discord",
+   "server": "Renoise Community Server",
+   "context": "added this to Paketti Theme Selector, too, found it from https://github.com/Pomax/renoise-themes/tree/main/sand%20(contrast)"
+  },
+  {
+   "file": "dc1276646548750471239_Kojima.xrnc",
+   "name": "Kojima",
+   "author": null,
+   "posted_by": "mikepehel",
+   "posted_in": "#📟-themes",
+   "channel_id": "889616096863330374",
+   "message_id": "1276646548750471239",
+   "date": "2024-08-23",
+   "original_filename": "Kojima.xrnc",
+   "url": "https://cdn.discordapp.com/attachments/889616096863330374/1276646548750471239/Kojima.xrnc",
+   "sha256": "75da059f2dcea3d4d4927bdbd2777b51a22068ac7e390593785b23b32094514e",
+   "size_bytes": 5117,
+   "source": "discord",
+   "server": "Renoise Community Server"
+  },
+  {
+   "file": "dc1363915258414108886_Ableton11Dark.xrnc",
+   "name": "Ableton11Dark",
+   "author": null,
+   "posted_by": "toorkit",
+   "posted_in": "#📟-themes",
+   "channel_id": "889616096863330374",
+   "message_id": "1363915258414108886",
+   "date": "2025-04-21",
+   "original_filename": "Ableton11Dark.xrnc",
+   "url": "https://cdn.discordapp.com/attachments/889616096863330374/1363915258414108886/Ableton11Dark.xrnc",
+   "sha256": "c75cdfe2071aa07d70f2a18ffa3754216e60326f127300322202a448199770d0",
+   "size_bytes": 5122,
+   "source": "discord",
+   "server": "Renoise Community Server",
+   "context": "Seems a bit silly when they're both Renoise-oriented. Should be working together, but whatever. Not sure if anyone's copied the Live 11 colors, but I did once and been using this theme since."
+  },
+  {
+   "file": "dc1399538563632070767_BloodSugar_Glide.xrnc",
+   "name": "BloodSugar Glide",
+   "author": null,
+   "posted_by": "glidelas",
+   "posted_in": "#📟-themes",
+   "channel_id": "889616096863330374",
+   "message_id": "1399538563632070767",
+   "date": "2025-07-28",
+   "original_filename": "BloodSugar_Glide.xrnc",
+   "url": "https://cdn.discordapp.com/attachments/889616096863330374/1399538563632070767/BloodSugar_Glide.xrnc",
+   "sha256": "3c229982708f22f04c9bb085d682a440e0e4aaee5bd087375f6637c0e3124af5",
+   "size_bytes": 4970,
+   "source": "discord",
+   "server": "Renoise Community Server"
+  },
+  {
+   "file": "dc1399530168317509783_Easily_Embarrassed_type.xrnc",
+   "name": "Easily Embarrassed type",
+   "author": null,
+   "posted_by": "glidelas",
+   "posted_in": "#📟-themes",
+   "channel_id": "889616096863330374",
+   "message_id": "1399530168317509783",
+   "date": "2025-07-28",
+   "original_filename": "Easily_Embarrassed_type.xrnc",
+   "url": "https://cdn.discordapp.com/attachments/889616096863330374/1399530168317509783/Easily_Embarrassed_type.xrnc",
+   "sha256": "45350271bb99bf9faad4418b8d2fb9c688e5672d132c65b5a2e6bd6c647553dd",
+   "size_bytes": 5130,
+   "source": "discord",
+   "server": "Renoise Community Server"
+  },
+  {
+   "file": "dc1399529874787663943_Neosponge.xrnc",
+   "name": "Neosponge",
+   "author": null,
+   "posted_by": "glidelas",
+   "posted_in": "#📟-themes",
+   "channel_id": "889616096863330374",
+   "message_id": "1399529874787663943",
+   "date": "2025-07-28",
+   "original_filename": "Neosponge.xrnc",
+   "url": "https://cdn.discordapp.com/attachments/889616096863330374/1399529874787663943/Neosponge.xrnc",
+   "sha256": "d183bea2843bd4308559fd275b34a1d85df1c84fec51aeb8d5dbe81d4f15b015",
+   "size_bytes": 5119,
+   "source": "discord",
+   "server": "Renoise Community Server"
+  },
+  {
+   "file": "dc1400397347711877213_realp.xrnc",
+   "name": "realp",
+   "author": null,
+   "posted_by": "rushup_dee",
+   "posted_in": "#📟-themes",
+   "channel_id": "889616096863330374",
+   "message_id": "1400397347711877213",
+   "date": "2025-07-31",
+   "original_filename": "realp.xrnc",
+   "url": "https://cdn.discordapp.com/attachments/889616096863330374/1400397347711877213/realp.xrnc",
+   "sha256": "db7f85dc4380d75628243da988779a13ab98cdcd25b22387657444d53b490b4f",
+   "size_bytes": 5140,
+   "source": "discord",
+   "server": "Renoise Community Server"
+  },
+  {
+   "file": "dc1401586820059365447_Default_Pink_Auto.xrnc",
+   "name": "Default Pink Auto",
+   "author": null,
+   "posted_by": "carlcaulkett",
+   "posted_in": "#📟-themes",
+   "channel_id": "889616096863330374",
+   "message_id": "1401586820059365447",
+   "date": "2025-08-03",
+   "original_filename": "Default_Pink_Auto.xrnc",
+   "url": "https://cdn.discordapp.com/attachments/889616096863330374/1401586820059365447/Default_Pink_Auto.xrnc",
+   "sha256": "5225763e14b6bb61bc5c51ef37f33a0b03b8134bf64fafa32389da35dce3484f",
+   "size_bytes": 5132,
+   "source": "discord",
+   "server": "Renoise Community Server"
+  },
+  {
+   "file": "dc1413914532849520792_waporcity.xrnc",
+   "name": "waporcity",
+   "author": null,
+   "posted_by": "waporwave",
+   "posted_in": "#📟-themes",
+   "channel_id": "889616096863330374",
+   "message_id": "1413914532849520792",
+   "date": "2025-09-06",
+   "original_filename": "waporcity.xrnc",
+   "url": "https://cdn.discordapp.com/attachments/889616096863330374/1413914532849520792/waporcity.xrnc",
+   "sha256": "e52be74ce9f592eeda367f0d8f84da9c6d797b760a7e8aac63787195e6383c29",
+   "size_bytes": 5011,
+   "source": "discord",
+   "server": "Renoise Community Server",
+   "context": "sure"
+  },
+  {
+   "file": "dc1421947246332739816_LotuaStation_-_587EF4.xrnc",
+   "name": "LotuaStation - 587EF4",
+   "author": null,
+   "posted_by": "lotuastation",
+   "posted_in": "#📟-themes",
+   "channel_id": "889616096863330374",
+   "message_id": "1421947246332739816",
+   "date": "2025-09-28",
+   "original_filename": "LotuaStation_-_587EF4.xrnc",
+   "url": "https://cdn.discordapp.com/attachments/889616096863330374/1421947246332739816/LotuaStation_-_587EF4.xrnc",
+   "sha256": "8d579d7788e813a8313d8c8e01c2ffd53301084acdd1d28a7ee2fd98a0162904",
+   "size_bytes": 5058,
+   "source": "discord",
+   "server": "Renoise Community Server",
+   "context": "also included in 's paketti"
+  },
+  {
+   "file": "dc1421947246034948216_LotuaStation_-_58F4BA.xrnc",
+   "name": "LotuaStation - 58F4BA",
+   "author": null,
+   "posted_by": "lotuastation",
+   "posted_in": "#📟-themes",
+   "channel_id": "889616096863330374",
+   "message_id": "1421947246034948216",
+   "date": "2025-09-28",
+   "original_filename": "LotuaStation_-_58F4BA.xrnc",
+   "url": "https://cdn.discordapp.com/attachments/889616096863330374/1421947246034948216/LotuaStation_-_58F4BA.xrnc",
+   "sha256": "6bb58a1685f42a5deb91c7e2a79a75f1d16c90df5bb4e5ddb369a9ed8bf8d9bc",
+   "size_bytes": 5089,
+   "source": "discord",
+   "server": "Renoise Community Server",
+   "context": "also included in 's paketti"
+  },
+  {
+   "file": "dc1421947245749604372_LotuaStation_-_6E58F4.xrnc",
+   "name": "LotuaStation - 6E58F4",
+   "author": null,
+   "posted_by": "lotuastation",
+   "posted_in": "#📟-themes",
+   "channel_id": "889616096863330374",
+   "message_id": "1421947245749604372",
+   "date": "2025-09-28",
+   "original_filename": "LotuaStation_-_6E58F4.xrnc",
+   "url": "https://cdn.discordapp.com/attachments/889616096863330374/1421947245749604372/LotuaStation_-_6E58F4.xrnc",
+   "sha256": "9c31f2fd20f81c251dfed1b4c227bc2f200290e099ae8968064d3c600b10f2ef",
+   "size_bytes": 5058,
+   "source": "discord",
+   "server": "Renoise Community Server",
+   "context": "also included in 's paketti"
+  },
+  {
+   "file": "dc1421947247209480212_LotuaStation_-_F458CA.xrnc",
+   "name": "LotuaStation - F458CA",
+   "author": null,
+   "posted_by": "lotuastation",
+   "posted_in": "#📟-themes",
+   "channel_id": "889616096863330374",
+   "message_id": "1421947247209480212",
+   "date": "2025-09-28",
+   "original_filename": "LotuaStation_-_F458CA.xrnc",
+   "url": "https://cdn.discordapp.com/attachments/889616096863330374/1421947247209480212/LotuaStation_-_F458CA.xrnc",
+   "sha256": "d741720d169a36e5d0d3f1ad124c8b8b907018c14ca82d7665dd0f2ad72227e3",
+   "size_bytes": 5059,
+   "source": "discord",
+   "server": "Renoise Community Server",
+   "context": "also included in 's paketti"
+  },
+  {
+   "file": "dc1421947247557611530_LotuaStation_-_F49658.xrnc",
+   "name": "LotuaStation - F49658",
+   "author": null,
+   "posted_by": "lotuastation",
+   "posted_in": "#📟-themes",
+   "channel_id": "889616096863330374",
+   "message_id": "1421947247557611530",
+   "date": "2025-09-28",
+   "original_filename": "LotuaStation_-_F49658.xrnc",
+   "url": "https://cdn.discordapp.com/attachments/889616096863330374/1421947247557611530/LotuaStation_-_F49658.xrnc",
+   "sha256": "568507cf123f59bfc02e76e06297164cee5d78dc9224e7876756327b1b170f2e",
+   "size_bytes": 5058,
+   "source": "discord",
+   "server": "Renoise Community Server",
+   "context": "also included in 's paketti"
+  },
+  {
+   "file": "dc1421947246638796862_LotuaStation_-_F4E458.xrnc",
+   "name": "LotuaStation - F4E458",
+   "author": null,
+   "posted_by": "lotuastation",
+   "posted_in": "#📟-themes",
+   "channel_id": "889616096863330374",
+   "message_id": "1421947246638796862",
+   "date": "2025-09-28",
+   "original_filename": "LotuaStation_-_F4E458.xrnc",
+   "url": "https://cdn.discordapp.com/attachments/889616096863330374/1421947246638796862/LotuaStation_-_F4E458.xrnc",
+   "sha256": "46f4948a6bc6377d359d74119b15a99e218e7f6e0538662156ea87587963cf81",
+   "size_bytes": 5059,
+   "source": "discord",
+   "server": "Renoise Community Server",
+   "context": "also included in 's paketti"
+  },
+  {
+   "file": "dc1455701209577951477_Ooze.xrnc",
+   "name": "Ooze",
+   "author": null,
+   "posted_by": "damnyell",
+   "posted_in": "#📟-themes",
+   "channel_id": "889616096863330374",
+   "message_id": "1455701209577951477",
+   "date": "2025-12-30",
+   "original_filename": "Ooze.xrnc",
+   "url": "https://cdn.discordapp.com/attachments/889616096863330374/1455701209577951477/Ooze.xrnc",
+   "sha256": "f092825f9847b71788f9b73cbeb377688aecf41480a6175ab2575281ba184e82",
+   "size_bytes": 5191,
+   "source": "discord",
+   "server": "Renoise Community Server",
+   "context": "I made a variant on Acid Grey, I really liked the base, but had issues with the contrast in the pattern editor in terms of readability, so I made some adjustments.... not sure it's substantial enough to be added but here you go :)"
+  },
+  {
+   "file": "dc1503261848466624654_Sononoise_Dark_spktkpkt.xrnc",
+   "name": "Sononoise Dark spktkpkt",
+   "author": null,
+   "posted_by": "noobish.wav",
+   "posted_in": "#🎹-hardware",
+   "channel_id": "982929214720335882",
+   "message_id": "1503261848466624654",
+   "date": "2026-05-11",
+   "original_filename": "Sononoise_Dark_spktkpkt.xrnc",
+   "url": "https://cdn.discordapp.com/attachments/982929214720335882/1503261848466624654/Sononoise_Dark_spktkpkt.xrnc",
+   "sha256": "a4b1c3bf4eb8b8e1175dbcaf4eb952d2e043668828eee30d0f0d0aee466e2d82",
+   "size_bytes": 5129,
+   "source": "discord",
+   "server": "Renoise Community Server",
+   "context": "i dont remember where i got these ngl 🥹"
+  },
+  {
+   "file": "dc1503261848730861641_Sononoise_Light_spktkpkt.xrnc",
+   "name": "Sononoise Light spktkpkt",
+   "author": null,
+   "posted_by": "noobish.wav",
+   "posted_in": "#🎹-hardware",
+   "channel_id": "982929214720335882",
+   "message_id": "1503261848730861641",
+   "date": "2026-05-11",
+   "original_filename": "Sononoise_Light_spktkpkt.xrnc",
+   "url": "https://cdn.discordapp.com/attachments/982929214720335882/1503261848730861641/Sononoise_Light_spktkpkt.xrnc",
+   "sha256": "0f714b6b925388fe1e59035046da8655b95dcfd4f84b351de8cef666cdd1dbc2",
+   "size_bytes": 5089,
+   "source": "discord",
+   "server": "Renoise Community Server",
+   "context": "i dont remember where i got these ngl 🥹"
   }
  ]
 }
