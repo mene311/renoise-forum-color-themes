@@ -29,7 +29,7 @@
   }
  ],
  "source": "https://forum.renoise.com/t/color-themes-for-renoise/18003",
- "count": 572,
+ "count": 561,
  "counts": {
   "forum": 229,
   "renoise-webftp": 95,
@@ -323,7 +323,8 @@
    "url": "https://forum.renoise.com/uploads/short-url/fBgYWP2lSr2irTbfiPrgjD6BApP.xrnc",
    "sha256": "463230fe12670357021580ea17f25dd48289a09274ea61862bd71ca31889f07d",
    "size_bytes": 5012,
-   "source": "forum"
+   "source": "forum",
+   "variant_group": "noiselabs"
   },
   {
    "file": "0710_phase_plant.xrnc",
@@ -1547,7 +1548,8 @@
    "url": "https://forum.renoise.com/uploads/short-url/kCmxW9SwgUZkn55XzarnAeQY5PP.xrnc",
    "sha256": "2655bd4a0f9cf7f66744659e49a6abfbc08192fa38ad94e3beb3f29d99853ed5",
    "size_bytes": 5009,
-   "source": "forum"
+   "source": "forum",
+   "variant_group": "noiselabs"
   },
   {
    "file": "0994_Plastic Watermelon.xrnc",
@@ -3823,23 +3825,8 @@
    "sha256": "9cd98a649931c682ce3716cf16a846a518ebd534d200567613986f3e63dacf68",
    "size_bytes": 5070,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
-  },
-  {
-   "file": "dc1128037928686342245_Amiga_OS_Theme_Final_heller_1.xrnc",
-   "name": "Amiga OS Theme Final heller 1",
-   "author": null,
-   "posted_by": "corefragment",
-   "posted_in": "#★amiga-os-theme★",
-   "channel_id": "1127958436454334555",
-   "message_id": "1128037928686342245",
-   "date": "2023-07-10",
-   "original_filename": "Amiga_OS_Theme_Final_heller_1.xrnc",
-   "url": "https://cdn.discordapp.com/attachments/1127958436454334555/1128037928686342245/Amiga_OS_Theme_Final_heller_1.xrnc",
-   "sha256": "7c3e5cff7407a7891c9b13357aaf53227581fcc38f9495f3ae42e9e2a91f75d7",
-   "size_bytes": 5078,
-   "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "amigaosheller"
   },
   {
    "file": "dc1128037927990087750_Amiga_OS_Theme_Final_heller_2.xrnc",
@@ -3855,7 +3842,8 @@
    "sha256": "c1d330ad92e7a347470a7616cd888fd04ee930d44469cbb2d6f07d546cbf3a56",
    "size_bytes": 5078,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "amigaosheller"
   },
   {
    "file": "dc1128053479659819071_Amiga_OS_Theme_Final_heller_4.xrnc",
@@ -3871,7 +3859,8 @@
    "sha256": "840c53959bb9baaeaa96cb207c9227994275e1290817a0ea12b331b0ed488d43",
    "size_bytes": 5078,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "amigaosheller"
   },
   {
    "file": "dc1128053479252963400_Amiga_OS_Theme_Final_heller_5.xrnc",
@@ -3887,55 +3876,8 @@
    "sha256": "612bccad8f5cbe06faaba2cdb054b856a7f47dafb6b5a5913a8b8946aaa3a01c",
    "size_bytes": 5078,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
-  },
-  {
-   "file": "dc1128037930087239720_Amiga_OS_Theme_Final_other.xrnc",
-   "name": "Amiga OS Theme Final other",
-   "author": null,
-   "posted_by": "corefragment",
-   "posted_in": "#★amiga-os-theme★",
-   "channel_id": "1127958436454334555",
-   "message_id": "1128037930087239720",
-   "date": "2023-07-10",
-   "original_filename": "Amiga_OS_Theme_Final_other.xrnc",
-   "url": "https://cdn.discordapp.com/attachments/1127958436454334555/1128037930087239720/Amiga_OS_Theme_Final_other.xrnc",
-   "sha256": "8ab8afee1ab7d206ba0ae352cbbd3a549e2b248e8eeede4614ec78bb231e6d09",
-   "size_bytes": 5059,
-   "source": "discord",
-   "server": "Renoise Themes & Stuff"
-  },
-  {
-   "file": "dc1128037929390972928_Amiga_OS_Theme_Final_other_2.xrnc",
-   "name": "Amiga OS Theme Final other 2",
-   "author": null,
-   "posted_by": "corefragment",
-   "posted_in": "#★amiga-os-theme★",
-   "channel_id": "1127958436454334555",
-   "message_id": "1128037929390972928",
-   "date": "2023-07-10",
-   "original_filename": "Amiga_OS_Theme_Final_other_2.xrnc",
-   "url": "https://cdn.discordapp.com/attachments/1127958436454334555/1128037929390972928/Amiga_OS_Theme_Final_other_2.xrnc",
-   "sha256": "d34f222519c516eceea7164bfbea2d1ec904ac274bee3c1f9137bef25605b129",
-   "size_bytes": 5066,
-   "source": "discord",
-   "server": "Renoise Themes & Stuff"
-  },
-  {
-   "file": "dc1128037929097379900_Amiga_OS_Theme_Final_other_3.xrnc",
-   "name": "Amiga OS Theme Final other 3",
-   "author": null,
-   "posted_by": "corefragment",
-   "posted_in": "#★amiga-os-theme★",
-   "channel_id": "1127958436454334555",
-   "message_id": "1128037929097379900",
-   "date": "2023-07-10",
-   "original_filename": "Amiga_OS_Theme_Final_other_3.xrnc",
-   "url": "https://cdn.discordapp.com/attachments/1127958436454334555/1128037929097379900/Amiga_OS_Theme_Final_other_3.xrnc",
-   "sha256": "ffe964770e655f54c12cfd2b3649edb9f3b3b2d5fceaa7a9716194297ac9f1eb",
-   "size_bytes": 5067,
-   "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "amigaosheller"
   },
   {
    "file": "dc1128037928350793868_Amiga_OS_Theme_Final_other_4.xrnc",
@@ -4095,7 +4037,8 @@
    "sha256": "a8b549070b7465aaa417a017877c9751a70c1995f1b0698ae32211e050a1b533",
    "size_bytes": 5159,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "solarizedplastic"
   },
   {
    "file": "dc1256779942834737232_solarized_plastic_RC2.xrnc",
@@ -4111,7 +4054,8 @@
    "sha256": "a22d5ad0132f6f2e91fc7081870873eefd3036806d22f10521cd8df52ab8c2c3",
    "size_bytes": 5159,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "solarizedplastic"
   },
   {
    "file": "dc1282375120119140464_Graphite_RC1.xrnc",
@@ -4319,7 +4263,8 @@
    "sha256": "c49ef3665c2df70be562685c13013847cdfae09fd76268ed6110e04bac96196d",
    "size_bytes": 5007,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "octamed8buttonsother4"
   },
   {
    "file": "dc1448348251907428394_Octamed8.5_buttons_other4.2.2.xrnc",
@@ -4335,7 +4280,8 @@
    "sha256": "2024ac78d765b2c2229edf9a67b38ce9b36cec72548edc7078c603b8ede32285",
    "size_bytes": 5009,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "octamed8buttonsother4"
   },
   {
    "file": "dc1448348252163543220_Octamed8.5_buttons_other4.2.3.xrnc",
@@ -4351,7 +4297,8 @@
    "sha256": "361446ec5636e09a9b94bb15baef8371ed292bfe83f550de0e080fa8f774f9bf",
    "size_bytes": 5007,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "octamed8buttonsother4"
   },
   {
    "file": "dc1493902969551323256_Ice_Candy_joule.xrnc",
@@ -4650,22 +4597,6 @@
    "context": "Seems a bit silly when they're both Renoise-oriented. Should be working together, but whatever. Not sure if anyone's copied the Live 11 colors, but I did once and been using this theme since."
   },
   {
-   "file": "dc1399538563632070767_BloodSugar_Glide.xrnc",
-   "name": "BloodSugar Glide",
-   "author": null,
-   "posted_by": "glidelas",
-   "posted_in": "#📟-themes",
-   "channel_id": "889616096863330374",
-   "message_id": "1399538563632070767",
-   "date": "2025-07-28",
-   "original_filename": "BloodSugar_Glide.xrnc",
-   "url": "https://cdn.discordapp.com/attachments/889616096863330374/1399538563632070767/BloodSugar_Glide.xrnc",
-   "sha256": "3c229982708f22f04c9bb085d682a440e0e4aaee5bd087375f6637c0e3124af5",
-   "size_bytes": 4970,
-   "source": "discord",
-   "server": "Renoise Community Server"
-  },
-  {
    "file": "dc1399530168317509783_Easily_Embarrassed_type.xrnc",
    "name": "Easily Embarrassed type",
    "author": null,
@@ -4745,108 +4676,6 @@
    "source": "discord",
    "server": "Renoise Community Server",
    "context": "sure"
-  },
-  {
-   "file": "dc1421947246332739816_LotuaStation_-_587EF4.xrnc",
-   "name": "LotuaStation - 587EF4",
-   "author": null,
-   "posted_by": "lotuastation",
-   "posted_in": "#📟-themes",
-   "channel_id": "889616096863330374",
-   "message_id": "1421947246332739816",
-   "date": "2025-09-28",
-   "original_filename": "LotuaStation_-_587EF4.xrnc",
-   "url": "https://cdn.discordapp.com/attachments/889616096863330374/1421947246332739816/LotuaStation_-_587EF4.xrnc",
-   "sha256": "8d579d7788e813a8313d8c8e01c2ffd53301084acdd1d28a7ee2fd98a0162904",
-   "size_bytes": 5058,
-   "source": "discord",
-   "server": "Renoise Community Server",
-   "context": "also included in 's paketti"
-  },
-  {
-   "file": "dc1421947246034948216_LotuaStation_-_58F4BA.xrnc",
-   "name": "LotuaStation - 58F4BA",
-   "author": null,
-   "posted_by": "lotuastation",
-   "posted_in": "#📟-themes",
-   "channel_id": "889616096863330374",
-   "message_id": "1421947246034948216",
-   "date": "2025-09-28",
-   "original_filename": "LotuaStation_-_58F4BA.xrnc",
-   "url": "https://cdn.discordapp.com/attachments/889616096863330374/1421947246034948216/LotuaStation_-_58F4BA.xrnc",
-   "sha256": "6bb58a1685f42a5deb91c7e2a79a75f1d16c90df5bb4e5ddb369a9ed8bf8d9bc",
-   "size_bytes": 5089,
-   "source": "discord",
-   "server": "Renoise Community Server",
-   "context": "also included in 's paketti"
-  },
-  {
-   "file": "dc1421947245749604372_LotuaStation_-_6E58F4.xrnc",
-   "name": "LotuaStation - 6E58F4",
-   "author": null,
-   "posted_by": "lotuastation",
-   "posted_in": "#📟-themes",
-   "channel_id": "889616096863330374",
-   "message_id": "1421947245749604372",
-   "date": "2025-09-28",
-   "original_filename": "LotuaStation_-_6E58F4.xrnc",
-   "url": "https://cdn.discordapp.com/attachments/889616096863330374/1421947245749604372/LotuaStation_-_6E58F4.xrnc",
-   "sha256": "9c31f2fd20f81c251dfed1b4c227bc2f200290e099ae8968064d3c600b10f2ef",
-   "size_bytes": 5058,
-   "source": "discord",
-   "server": "Renoise Community Server",
-   "context": "also included in 's paketti"
-  },
-  {
-   "file": "dc1421947247209480212_LotuaStation_-_F458CA.xrnc",
-   "name": "LotuaStation - F458CA",
-   "author": null,
-   "posted_by": "lotuastation",
-   "posted_in": "#📟-themes",
-   "channel_id": "889616096863330374",
-   "message_id": "1421947247209480212",
-   "date": "2025-09-28",
-   "original_filename": "LotuaStation_-_F458CA.xrnc",
-   "url": "https://cdn.discordapp.com/attachments/889616096863330374/1421947247209480212/LotuaStation_-_F458CA.xrnc",
-   "sha256": "d741720d169a36e5d0d3f1ad124c8b8b907018c14ca82d7665dd0f2ad72227e3",
-   "size_bytes": 5059,
-   "source": "discord",
-   "server": "Renoise Community Server",
-   "context": "also included in 's paketti"
-  },
-  {
-   "file": "dc1421947247557611530_LotuaStation_-_F49658.xrnc",
-   "name": "LotuaStation - F49658",
-   "author": null,
-   "posted_by": "lotuastation",
-   "posted_in": "#📟-themes",
-   "channel_id": "889616096863330374",
-   "message_id": "1421947247557611530",
-   "date": "2025-09-28",
-   "original_filename": "LotuaStation_-_F49658.xrnc",
-   "url": "https://cdn.discordapp.com/attachments/889616096863330374/1421947247557611530/LotuaStation_-_F49658.xrnc",
-   "sha256": "568507cf123f59bfc02e76e06297164cee5d78dc9224e7876756327b1b170f2e",
-   "size_bytes": 5058,
-   "source": "discord",
-   "server": "Renoise Community Server",
-   "context": "also included in 's paketti"
-  },
-  {
-   "file": "dc1421947246638796862_LotuaStation_-_F4E458.xrnc",
-   "name": "LotuaStation - F4E458",
-   "author": null,
-   "posted_by": "lotuastation",
-   "posted_in": "#📟-themes",
-   "channel_id": "889616096863330374",
-   "message_id": "1421947246638796862",
-   "date": "2025-09-28",
-   "original_filename": "LotuaStation_-_F4E458.xrnc",
-   "url": "https://cdn.discordapp.com/attachments/889616096863330374/1421947246638796862/LotuaStation_-_F4E458.xrnc",
-   "sha256": "46f4948a6bc6377d359d74119b15a99e218e7f6e0538662156ea87587963cf81",
-   "size_bytes": 5059,
-   "source": "discord",
-   "server": "Renoise Community Server",
-   "context": "also included in 's paketti"
   },
   {
    "file": "dc1455701209577951477_Ooze.xrnc",
@@ -6373,7 +6202,8 @@
    "posted_in": "#themes",
    "server": "Renoise Community Server",
    "date": "2022-04-18",
-   "source_note": "Bulk upload \"themes.zip\" (128 files)"
+   "source_note": "Bulk upload \"themes.zip\" (128 files)",
+   "variant_group": "bluey"
   },
   {
    "file": "zth_Bluey.xrnc",
@@ -6387,7 +6217,8 @@
    "posted_in": "#themes",
    "server": "Renoise Community Server",
    "date": "2022-04-18",
-   "source_note": "Bulk upload \"themes.zip\" (128 files)"
+   "source_note": "Bulk upload \"themes.zip\" (128 files)",
+   "variant_group": "bluey"
   },
   {
    "file": "zth_Breed.xrnc",
@@ -7129,7 +6960,8 @@
    "posted_in": "#themes",
    "server": "Renoise Community Server",
    "date": "2022-04-18",
-   "source_note": "Bulk upload \"themes.zip\" (128 files)"
+   "source_note": "Bulk upload \"themes.zip\" (128 files)",
+   "variant_group": "neon"
   },
   {
    "file": "zth_Neon v2.xrnc",
@@ -7143,7 +6975,8 @@
    "posted_in": "#themes",
    "server": "Renoise Community Server",
    "date": "2022-04-18",
-   "source_note": "Bulk upload \"themes.zip\" (128 files)"
+   "source_note": "Bulk upload \"themes.zip\" (128 files)",
+   "variant_group": "neon"
   },
   {
    "file": "zth_Neve.xrnc",
@@ -7684,5 +7517,213 @@
   "discord:themes-and-stuff": 103,
   "discord:community-server-themes": 28,
   "discord:community-server-themes.zip": 117
- }
+ },
+ "aliases": [
+  {
+   "file": "dc1128037928686342245_Amiga_OS_Theme_Final_heller_1.xrnc",
+   "name": "Amiga OS Theme Final heller 1",
+   "author": null,
+   "posted_by": "corefragment",
+   "posted_in": "#★amiga-os-theme★",
+   "channel_id": "1127958436454334555",
+   "message_id": "1128037928686342245",
+   "date": "2023-07-10",
+   "original_filename": "Amiga_OS_Theme_Final_heller_1.xrnc",
+   "url": "https://cdn.discordapp.com/attachments/1127958436454334555/1128037928686342245/Amiga_OS_Theme_Final_heller_1.xrnc",
+   "sha256": "7c3e5cff7407a7891c9b13357aaf53227581fcc38f9495f3ae42e9e2a91f75d7",
+   "size_bytes": 5078,
+   "source": "discord",
+   "server": "Renoise Themes & Stuff",
+   "duplicate_of": "dc1127968081931681844_Amiga_OS_Theme_Final_heller.xrnc",
+   "duplicate_reason": "identical colour map"
+  },
+  {
+   "file": "dc1128037929097379900_Amiga_OS_Theme_Final_other_3.xrnc",
+   "name": "Amiga OS Theme Final other 3",
+   "author": null,
+   "posted_by": "corefragment",
+   "posted_in": "#★amiga-os-theme★",
+   "channel_id": "1127958436454334555",
+   "message_id": "1128037929097379900",
+   "date": "2023-07-10",
+   "original_filename": "Amiga_OS_Theme_Final_other_3.xrnc",
+   "url": "https://cdn.discordapp.com/attachments/1127958436454334555/1128037929097379900/Amiga_OS_Theme_Final_other_3.xrnc",
+   "sha256": "ffe964770e655f54c12cfd2b3649edb9f3b3b2d5fceaa7a9716194297ac9f1eb",
+   "size_bytes": 5067,
+   "source": "discord",
+   "server": "Renoise Themes & Stuff",
+   "duplicate_of": "dc1128037928350793868_Amiga_OS_Theme_Final_other_4.xrnc",
+   "duplicate_reason": "identical colour map"
+  },
+  {
+   "file": "dc1128037929390972928_Amiga_OS_Theme_Final_other_2.xrnc",
+   "name": "Amiga OS Theme Final other 2",
+   "author": null,
+   "posted_by": "corefragment",
+   "posted_in": "#★amiga-os-theme★",
+   "channel_id": "1127958436454334555",
+   "message_id": "1128037929390972928",
+   "date": "2023-07-10",
+   "original_filename": "Amiga_OS_Theme_Final_other_2.xrnc",
+   "url": "https://cdn.discordapp.com/attachments/1127958436454334555/1128037929390972928/Amiga_OS_Theme_Final_other_2.xrnc",
+   "sha256": "d34f222519c516eceea7164bfbea2d1ec904ac274bee3c1f9137bef25605b129",
+   "size_bytes": 5066,
+   "source": "discord",
+   "server": "Renoise Themes & Stuff",
+   "duplicate_of": "dc1128037928350793868_Amiga_OS_Theme_Final_other_4.xrnc",
+   "duplicate_reason": "identical colour map"
+  },
+  {
+   "file": "dc1128037930087239720_Amiga_OS_Theme_Final_other.xrnc",
+   "name": "Amiga OS Theme Final other",
+   "author": null,
+   "posted_by": "corefragment",
+   "posted_in": "#★amiga-os-theme★",
+   "channel_id": "1127958436454334555",
+   "message_id": "1128037930087239720",
+   "date": "2023-07-10",
+   "original_filename": "Amiga_OS_Theme_Final_other.xrnc",
+   "url": "https://cdn.discordapp.com/attachments/1127958436454334555/1128037930087239720/Amiga_OS_Theme_Final_other.xrnc",
+   "sha256": "8ab8afee1ab7d206ba0ae352cbbd3a549e2b248e8eeede4614ec78bb231e6d09",
+   "size_bytes": 5059,
+   "source": "discord",
+   "server": "Renoise Themes & Stuff",
+   "duplicate_of": "dc1128037928350793868_Amiga_OS_Theme_Final_other_4.xrnc",
+   "duplicate_reason": "identical colour map"
+  },
+  {
+   "file": "dc1399538563632070767_BloodSugar_Glide.xrnc",
+   "name": "BloodSugar Glide",
+   "author": null,
+   "posted_by": "glidelas",
+   "posted_in": "#📟-themes",
+   "channel_id": "889616096863330374",
+   "message_id": "1399538563632070767",
+   "date": "2025-07-28",
+   "original_filename": "BloodSugar_Glide.xrnc",
+   "url": "https://cdn.discordapp.com/attachments/889616096863330374/1399538563632070767/BloodSugar_Glide.xrnc",
+   "sha256": "3c229982708f22f04c9bb085d682a440e0e4aaee5bd087375f6637c0e3124af5",
+   "size_bytes": 4970,
+   "source": "discord",
+   "server": "Renoise Community Server",
+   "duplicate_of": "1108_BloodSugar (Glide).xrnc",
+   "duplicate_reason": "same theme, re-uploaded to another site"
+  },
+  {
+   "file": "dc1421947245749604372_LotuaStation_-_6E58F4.xrnc",
+   "name": "LotuaStation - 6E58F4",
+   "author": null,
+   "posted_by": "lotuastation",
+   "posted_in": "#📟-themes",
+   "channel_id": "889616096863330374",
+   "message_id": "1421947245749604372",
+   "date": "2025-09-28",
+   "original_filename": "LotuaStation_-_6E58F4.xrnc",
+   "url": "https://cdn.discordapp.com/attachments/889616096863330374/1421947245749604372/LotuaStation_-_6E58F4.xrnc",
+   "sha256": "9c31f2fd20f81c251dfed1b4c227bc2f200290e099ae8968064d3c600b10f2ef",
+   "size_bytes": 5058,
+   "source": "discord",
+   "server": "Renoise Community Server",
+   "context": "also included in 's paketti",
+   "duplicate_of": "1160_LotuaStation - #6E58F4.xrnc",
+   "duplicate_reason": "same theme, re-uploaded to another site"
+  },
+  {
+   "file": "dc1421947246034948216_LotuaStation_-_58F4BA.xrnc",
+   "name": "LotuaStation - 58F4BA",
+   "author": null,
+   "posted_by": "lotuastation",
+   "posted_in": "#📟-themes",
+   "channel_id": "889616096863330374",
+   "message_id": "1421947246034948216",
+   "date": "2025-09-28",
+   "original_filename": "LotuaStation_-_58F4BA.xrnc",
+   "url": "https://cdn.discordapp.com/attachments/889616096863330374/1421947246034948216/LotuaStation_-_58F4BA.xrnc",
+   "sha256": "6bb58a1685f42a5deb91c7e2a79a75f1d16c90df5bb4e5ddb369a9ed8bf8d9bc",
+   "size_bytes": 5089,
+   "source": "discord",
+   "server": "Renoise Community Server",
+   "context": "also included in 's paketti",
+   "duplicate_of": "1160_LotuaStation - #58F4BA.xrnc",
+   "duplicate_reason": "same theme, re-uploaded to another site"
+  },
+  {
+   "file": "dc1421947246332739816_LotuaStation_-_587EF4.xrnc",
+   "name": "LotuaStation - 587EF4",
+   "author": null,
+   "posted_by": "lotuastation",
+   "posted_in": "#📟-themes",
+   "channel_id": "889616096863330374",
+   "message_id": "1421947246332739816",
+   "date": "2025-09-28",
+   "original_filename": "LotuaStation_-_587EF4.xrnc",
+   "url": "https://cdn.discordapp.com/attachments/889616096863330374/1421947246332739816/LotuaStation_-_587EF4.xrnc",
+   "sha256": "8d579d7788e813a8313d8c8e01c2ffd53301084acdd1d28a7ee2fd98a0162904",
+   "size_bytes": 5058,
+   "source": "discord",
+   "server": "Renoise Community Server",
+   "context": "also included in 's paketti",
+   "duplicate_of": "1160_LotuaStation - #587EF4.xrnc",
+   "duplicate_reason": "same theme, re-uploaded to another site"
+  },
+  {
+   "file": "dc1421947246638796862_LotuaStation_-_F4E458.xrnc",
+   "name": "LotuaStation - F4E458",
+   "author": null,
+   "posted_by": "lotuastation",
+   "posted_in": "#📟-themes",
+   "channel_id": "889616096863330374",
+   "message_id": "1421947246638796862",
+   "date": "2025-09-28",
+   "original_filename": "LotuaStation_-_F4E458.xrnc",
+   "url": "https://cdn.discordapp.com/attachments/889616096863330374/1421947246638796862/LotuaStation_-_F4E458.xrnc",
+   "sha256": "46f4948a6bc6377d359d74119b15a99e218e7f6e0538662156ea87587963cf81",
+   "size_bytes": 5059,
+   "source": "discord",
+   "server": "Renoise Community Server",
+   "context": "also included in 's paketti",
+   "duplicate_of": "1160_LotuaStation - #F4E458.xrnc",
+   "duplicate_reason": "same theme, re-uploaded to another site"
+  },
+  {
+   "file": "dc1421947247209480212_LotuaStation_-_F458CA.xrnc",
+   "name": "LotuaStation - F458CA",
+   "author": null,
+   "posted_by": "lotuastation",
+   "posted_in": "#📟-themes",
+   "channel_id": "889616096863330374",
+   "message_id": "1421947247209480212",
+   "date": "2025-09-28",
+   "original_filename": "LotuaStation_-_F458CA.xrnc",
+   "url": "https://cdn.discordapp.com/attachments/889616096863330374/1421947247209480212/LotuaStation_-_F458CA.xrnc",
+   "sha256": "d741720d169a36e5d0d3f1ad124c8b8b907018c14ca82d7665dd0f2ad72227e3",
+   "size_bytes": 5059,
+   "source": "discord",
+   "server": "Renoise Community Server",
+   "context": "also included in 's paketti",
+   "duplicate_of": "1160_LotuaStation - #F458CA.xrnc",
+   "duplicate_reason": "same theme, re-uploaded to another site"
+  },
+  {
+   "file": "dc1421947247557611530_LotuaStation_-_F49658.xrnc",
+   "name": "LotuaStation - F49658",
+   "author": null,
+   "posted_by": "lotuastation",
+   "posted_in": "#📟-themes",
+   "channel_id": "889616096863330374",
+   "message_id": "1421947247557611530",
+   "date": "2025-09-28",
+   "original_filename": "LotuaStation_-_F49658.xrnc",
+   "url": "https://cdn.discordapp.com/attachments/889616096863330374/1421947247557611530/LotuaStation_-_F49658.xrnc",
+   "sha256": "568507cf123f59bfc02e76e06297164cee5d78dc9224e7876756327b1b170f2e",
+   "size_bytes": 5058,
+   "source": "discord",
+   "server": "Renoise Community Server",
+   "context": "also included in 's paketti",
+   "duplicate_of": "1160_LotuaStation - #F49658.xrnc",
+   "duplicate_reason": "same theme, re-uploaded to another site"
+  }
+ ],
+ "aliases_note": "Entries listed in `aliases` are byte-different copies of a theme already archived: either an identical colour map, or the same theme re-uploaded to a second site by its own author. The canonical file is kept in `themes/`; the duplicate's provenance (uploader, date, channel, CDN URL) is preserved here so the record of the upload is not lost.",
+ "variant_note": "Entries sharing a `variant_group` are deliberate version series by one author (e.g. GoldBlue v1.0-1.2, Amiga OS brightness variants, RC1/RC2), not duplicates. The gallery groups them."
 }

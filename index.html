@@ -27,6 +27,10 @@
   input:focus, select:focus { border-color: #37e2d5; }
   .src { background: #232b3a; color: #8b93a7; border-radius: 5px; padding: 1px 5px;
     font-size: 10px; text-transform: uppercase; letter-spacing: .05em; vertical-align: 1px; }
+  .vsrc { background: #2a2340; color: #b9a6e6; border-radius: 5px; padding: 1px 5px;
+    font-size: 10px; letter-spacing: .05em; vertical-align: 1px; }
+  .chk { display: inline-flex; align-items: center; gap: 5px; color: #8b93a7;
+    font-size: 13px; cursor: pointer; user-select: none; }
   input { width: 220px; }
   .count { color: #8b93a7; font-size: 12px; margin-right: 4px; }
   .notice {
@@ -64,7 +68,7 @@
 </head>
 <body>
 <header>
-  <h1>Renoise Color Themes <span>— 572 themes · forum + official gallery + 2 Discord servers · previews rendered by renoisethemes.com engine</span></h1>
+  <h1>Renoise Color Themes <span>— 561 themes · forum + official gallery + 2 Discord servers · previews rendered by renoisethemes.com engine</span></h1>
   <div class="controls">
     <input id="q" type="search" placeholder="Search name, author, or uploader…" autocomplete="off">
     <select id="src">
@@ -78,6 +82,9 @@
       <option value="name">name A–Z</option>
       <option value="author">author A–Z</option>
     </select>
+    <label class="chk" title="Authors posted deliberate version series (v1/v2, RC1/RC2, brightness variants). Grouping shows one card per series instead of one per file.">
+      <input type="checkbox" id="grp" checked> group variants
+    </label>
     <span class="count" id="count"></span>
   </div>
 </header>
@@ -99,6 +106,7 @@ const COUNT = document.getElementById('count');
 const qEl = document.getElementById('q');
 const sortEl = document.getElementById('sort');
 const srcEl = document.getElementById('src');
+const grpEl = document.getElementById('grp');
 let data = [];
 
 function url(path) {
@@ -135,7 +143,7 @@ function credit(t) {
 }
 function render() {
   const q = qEl.value.trim().toLowerCase();
-  const sort = sortEl.value, src = srcEl.value;
+  const sort = sortEl.value, src = srcEl.value, group = grpEl.checked;
   let items = data.filter(t =>
     (src === 'all' || (t.source || 'forum') === src) &&
     (!q || t.name.toLowerCase().includes(q)
@@ -144,18 +152,30 @@ function render() {
   items.sort((a,b) => sort === 'post' ? (a.date||'').localeCompare(b.date||'') || ((a.post||0) - (b.post||0))
     : sort === 'name' ? a.name.localeCompare(b.name)
     : ((a.author||a.posted_by||'zzz')).localeCompare(b.author||b.posted_by||'zzz') || a.name.localeCompare(b.name));
-  COUNT.textContent = items.length + ' / ' + data.length;
+  // Collapse deliberate version series (v1/v2, RC1/RC2, brightness variants) into one card each.
+  const vcount = {};
+  for (const t of items) if (t.variant_group) vcount[t.variant_group] = (vcount[t.variant_group]||0)+1;
+  const seen = {};
+  const shown = items.filter(t => {
+    if (!group || !t.variant_group) return true;
+    if (seen[t.variant_group]) return false;
+    seen[t.variant_group] = 1; return true;
+  });
+  COUNT.textContent = shown.length + ' / ' + data.length +
+    (group && shown.length < items.length ? ' (' + (items.length - shown.length) + ' variants grouped)' : '');
   GRID.innerHTML = items.length ? '' : '<div class="empty">No themes match.</div>';
-  for (const t of items) {
+  for (const t of shown) {
     const f = document.createElement('figure');
     const s = stem(t.file);
     const prev = enc('previews/' + s + '.png');   // encode: some filenames contain '#' and spaces
     const badge = t.source === 'discord' ? ' <span class="src">discord</span>'
       : t.source === 'renoise-webftp' ? ' <span class="src">official</span>' : '';
+    const n = t.variant_group ? vcount[t.variant_group] : 0;
+    const vbadge = n > 1 ? ' <span class="vsrc" title="Deliberate version series by the same author - uncheck “group variants” to see all ' + n + ' files">×' + n + ' variants</span>' : '';
     f.innerHTML =
       '<div class="thumb"><img loading="lazy" src="' + prev + '" alt="' + esc(t.name) + ' preview"></div>' +
       '<figcaption>' +
-      '<div class="name">' + esc(t.name) + badge + '</div>' +
+      '<div class="name">' + esc(t.name) + badge + vbadge + '</div>' +
       '<div class="meta">' + credit(t) + '</div>' +
       '<div class="links">' +
       '<a class="btn dl" href="' + url('themes/' + t.file) + '">⬇ .xrnc</a>' +
@@ -167,6 +187,7 @@ function render() {
 qEl.addEventListener('input', render);
 sortEl.addEventListener('change', render);
 srcEl.addEventListener('change', render);
+grpEl.addEventListener('change', render);
 init();
 </script>
 </body>
