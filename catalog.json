@@ -32,8 +32,8 @@
  "count": 561,
  "counts": {
   "forum": 229,
-  "renoise-webftp": 95,
-  "discord": 248
+  "discord": 237,
+  "renoise-webftp": 95
  },
  "attribution_note": "Discord-sourced entries record the account that UPLOADED the file ('posted_by'), which is NOT necessarily its author. Both Discord servers contain re-posts of third-party themes — in 'Renoise Themes & Stuff' the featured (star) channels are moderator-curated; in 'Renoise Community Server' the #themes channel carries requests and re-posts alongside self-posts. Where the accompanying message reveals the real author, it is preserved verbatim in the 'context' field. 'author' is left null rather than guessed. Original authors: open an issue to be credited.",
  "themes": [
@@ -7516,7 +7516,8 @@
   "renoise-webftp": 95,
   "discord:themes-and-stuff": 103,
   "discord:community-server-themes": 28,
-  "discord:community-server-themes.zip": 117
+  "discord:community-server-themes-zip": 117,
+  "note": "after de-duplication; 11 redundant entries moved to `aliases`"
  },
  "aliases": [
   {
