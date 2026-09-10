@@ -25,6 +25,8 @@
     border-radius: 8px; padding: 7px 10px; font-size: 13px; outline: none;
   }
   input:focus, select:focus { border-color: #37e2d5; }
+  .src { background: #232b3a; color: #8b93a7; border-radius: 5px; padding: 1px 5px;
+    font-size: 10px; text-transform: uppercase; letter-spacing: .05em; vertical-align: 1px; }
   input { width: 220px; }
   .count { color: #8b93a7; font-size: 12px; margin-right: 4px; }
   .notice {
@@ -62,11 +64,16 @@
 </head>
 <body>
 <header>
-  <h1>Renoise Forum Color Themes <span>— 229 themes · previews rendered by renoisethemes.com engine</span></h1>
+  <h1>Renoise Color Themes <span>— 332 themes · forum + Discord · previews rendered by renoisethemes.com engine</span></h1>
   <div class="controls">
-    <input id="q" type="search" placeholder="Search name or author…" autocomplete="off">
+    <input id="q" type="search" placeholder="Search name, author, or uploader…" autocomplete="off">
+    <select id="src">
+      <option value="all">all sources</option>
+      <option value="forum">forum only</option>
+      <option value="discord">Discord only</option>
+    </select>
     <select id="sort">
-      <option value="post">oldest post</option>
+      <option value="post">oldest first</option>
       <option value="name">name A–Z</option>
       <option value="author">author A–Z</option>
     </select>
@@ -80,6 +87,7 @@ Text, icons, and unmapped regions are synthesized, so actual rendering may diffe
 <footer>
   Archived from the Renoise forum thread
   <a href="https://forum.renoise.com/t/color-themes-for-renoise/18003">“Color Themes For Renoise”</a>
+  and the <a href="https://discord.gg/hy48JMSHKc">Renoise Themes &amp; Stuff</a> Discord
   · themes © their authors (see <a href="catalog.json">catalog.json</a>) ·
   raw files in <a href="themes/">themes/</a> · <a href="https://github.com/mene311/renoise-forum-color-themes">repo</a>
 </footer>
@@ -88,6 +96,7 @@ const GRID = document.getElementById('grid');
 const COUNT = document.getElementById('count');
 const qEl = document.getElementById('q');
 const sortEl = document.getElementById('sort');
+const srcEl = document.getElementById('src');
 let data = [];
 
 function url(path) {
@@ -95,6 +104,7 @@ function url(path) {
     path.split('/').map(encodeURIComponent).join('/');
 }
 function stem(f) { return f.replace(/\.xrnc$/i, ''); }
+function enc(p) { return p.split('/').map(encodeURIComponent).join('/'); }
 function esc(s) { return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
 
 async function init() {
@@ -102,34 +112,51 @@ async function init() {
   data = (await r.json()).themes;
   render();
 }
+function credit(t) {
+  // Forum entries: author is known. Discord entries: only the uploader is known,
+  // and ★ channels contain re-posts of third-party themes — so don't imply authorship.
+  if (t.source !== 'discord') {
+    return 'by <span class="author">' + esc(t.author || 'Anonymous') + '</span>' +
+      ' · ' + esc(t.date) +
+      ' · <a style="color:#8b93a7" href="https://forum.renoise.com/t/color-themes-for-renoise/18003/' + t.post + '">post #' + t.post + '</a>';
+  }
+  return 'author unverified · uploaded by <span class="author">@' + esc(t.posted_by || '?') + '</span>' +
+    ' · ' + esc(t.date) +
+    ' · <span style="color:#8b93a7" title="Discord CDN links expire; the file in themes/ is the source of truth">' + esc(t.posted_in || '') + '</span>';
+}
 function render() {
   const q = qEl.value.trim().toLowerCase();
-  const sort = sortEl.value;
+  const sort = sortEl.value, src = srcEl.value;
   let items = data.filter(t =>
-    !q || t.name.toLowerCase().includes(q) || (t.author||'').toLowerCase().includes(q));
-  items.sort((a,b) => sort === 'post' ? a.post - b.post
+    (src === 'all' || (t.source || 'forum') === src) &&
+    (!q || t.name.toLowerCase().includes(q)
+        || (t.author||'').toLowerCase().includes(q)
+        || (t.posted_by||'').toLowerCase().includes(q)));
+  items.sort((a,b) => sort === 'post' ? (a.date||'').localeCompare(b.date||'') || ((a.post||0) - (b.post||0))
     : sort === 'name' ? a.name.localeCompare(b.name)
-    : (a.author||'').localeCompare(b.author||'') || a.name.localeCompare(b.name));
+    : (a.author||a.posted_by||'').localeCompare(b.author||b.posted_by||'') || a.name.localeCompare(b.name));
   COUNT.textContent = items.length + ' / ' + data.length;
   GRID.innerHTML = items.length ? '' : '<div class="empty">No themes match.</div>';
   for (const t of items) {
     const f = document.createElement('figure');
     const s = stem(t.file);
+    const prev = enc('previews/' + s + '.png');   // encode: some filenames contain '#' and spaces
+    const badge = t.source === 'discord' ? ' <span class="src">discord</span>' : '';
     f.innerHTML =
-      '<div class="thumb"><img loading="lazy" src="previews/' + s + '.png" alt="' + esc(t.name) + ' preview"></div>' +
+      '<div class="thumb"><img loading="lazy" src="' + prev + '" alt="' + esc(t.name) + ' preview"></div>' +
       '<figcaption>' +
-      '<div class="name">' + esc(t.name) + '</div>' +
-      '<div class="meta">by <span class="author">' + esc(t.author || 'Anonymous') + '</span>' +
-      ' · ' + esc(t.date) + ' · <a style="color:#8b93a7" href="https://forum.renoise.com/t/color-themes-for-renoise/18003/' + t.post + '">post #' + t.post + '</a></div>' +
+      '<div class="name">' + esc(t.name) + badge + '</div>' +
+      '<div class="meta">' + credit(t) + '</div>' +
       '<div class="links">' +
       '<a class="btn dl" href="' + url('themes/' + t.file) + '">⬇ .xrnc</a>' +
-      '<a class="btn" href="previews/' + s + '.png" target="_blank">preview</a>' +
+      '<a class="btn" href="' + prev + '" target="_blank">preview</a>' +
       '</div></figcaption>';
     GRID.appendChild(f);
   }
 }
 qEl.addEventListener('input', render);
 sortEl.addEventListener('change', render);
+srcEl.addEventListener('change', render);
 init();
 </script>
 </body>
