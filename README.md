@@ -1,12 +1,13 @@
 # Renoise Color Themes — Archive
 
-A curated, attribution-preserving archive of **332 Renoise color themes (`.xrnc`)**
-from two community sources:
+A curated, attribution-preserving archive of **360 Renoise color themes (`.xrnc`)`**
+from three community sources:
 
 | Source | Themes | Where |
 |---|---|---|
 | **Renoise Forum** — [“Color Themes For Renoise”](https://forum.renoise.com/t/color-themes-for-renoise/18003) thread, running since Sept 2006 | 229 | forum post uploads |
-| **Discord** — [Renoise Themes & Stuff](https://discord.gg/hy48JMSHKc) | 103 | server attachments |
+| **Discord** — [Renoise Themes & Stuff](https://discord.gg/hy48JMSHKc) | 103 | server attachments, mostly mod-curated `★` showcase channels |
+| **Discord** — Renoise Community Server | 28 | `#themes` channel |
 
 > ⚠️ **This is an archive, not an authorship claim.** Every theme is the work of its
 > original author. If you are an author and want your theme removed or re-credited,
@@ -16,7 +17,7 @@ from two community sources:
 
 | Path | Contents |
 |---|---|
-| `themes/` | 332 `.xrnc` theme files. Forum files are named `<post>_<name>.xrnc` (forum post number prefix); Discord files are named `dc<message_id>_<name>.xrnc` |
+| `themes/` | 360 `.xrnc` theme files. Forum files are named `<post>_<name>.xrnc` (forum post number prefix); Discord files are named `dc<message_id>_<name>.xrnc` |
 | `previews/` | Rendered preview for every theme (see disclaimer below) |
 | `catalog.json` | Machine-readable index: file, theme name, author/uploader, date, original filename, source URL, sha256, size |
 | `dead-links.csv` | 45 external download links from the forum thread that are gone (mostly 2006–2012 hosting) — documented loss |
@@ -36,17 +37,38 @@ from two community sources:
 The two sources have **different evidentiary standards**, and `catalog.json` reflects that:
 
 - **Forum entries** carry a verified `author` — the person who posted the theme in their own thread.
-- **Discord entries do NOT.** They carry `posted_by`: the account that *uploaded the file* to
-  the server. That is **not** necessarily the author. The server's featured (`★`) channels are
-  moderator-curated showcases and demonstrably contain **re-posts of third-party themes** — e.g.
-  the same file uploaded there by one account is published on the forum by a different author
-  (Colorful beauty → NPC1, Ableton Live 10 → grymmjack, 808Dark → floodmyth,
-  eDEX-UI interstellar → imapeppertoo).
+- **Discord entries do NOT.** They carry `posted_by`: the account that *uploaded the file*. That is
+  **not** necessarily the author, and both servers are demonstrably full of re-posts:
 
-Of the 103 Discord themes, **101 were uploaded from curated `★` channels**, so authorship was
-left `null` rather than guessed. De-duplication *by sha256* against the forum archive caught
-6 files that were already present under their true attribution — those were skipped rather
-than added twice.
+  | Theme | Uploaded by | Actual author |
+  |---|---|---|
+  | Colorful beauty | corefragment | **NPC1** |
+  | Ableton Live 10 (+2) | corefragment | **grymmjack** |
+  | 808Dark | corefragment | **floodmyth** |
+  | eDEX-UI interstellar | corefragment | **imapeppertoo** |
+  | Cyberpunk1 | esaruoho | **Osionik** — uploader wrote *“this theme from Osionik looks great”* |
+  | Hotdog Stand | esaruoho | **nilsding** — uploader found it on GitHub |
+  | GJ-FM7 | dark_evan1 | **grymmjack** — *“FM-7 theme by Renoise forum user grymmjack”* |
+  | Sononoise (×2) | noobish.wav | *unknown* — uploader: *“i dont remember where i got these”* |
+
+  In *Renoise Themes & Stuff* the featured (`★`) channels are moderator-curated showcases, so
+  `posted_by` usually is **not** the author. In *Renoise Community Server*, `#themes` carries
+  requests and re-posts alongside genuine self-posts, so it's mixed either way.
+
+Because of this, **129 of the 131 Discord themes have `author: null`** rather than a guess —
+this repo exists to preserve attribution, and mis-crediting is worse than under-crediting.
+De-duplication *by sha256* against the forum archive caught **12 files already present** under
+their true attribution; those were skipped rather than added twice.
+
+### The `context` field
+
+Where the accompanying Discord message reveals the real author or lineage, it is preserved verbatim
+in a `context` field on the entry — so the evidence trail survives alongside the file. Examples you
+can recover from it today:
+
+- `unblackforestcake` → *“based on Colorful (NPC1)”*
+- `Ooze` → *“I made a variant on Acid Grey”*
+- `Black-n-White` → *“Simple black and white theme I made.”* (uploader **is** the author here)
 
 If you authored one of these and want credit, open an issue with the theme name.
 

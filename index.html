@@ -64,7 +64,7 @@
 </head>
 <body>
 <header>
-  <h1>Renoise Color Themes <span>— 332 themes · forum + Discord · previews rendered by renoisethemes.com engine</span></h1>
+  <h1>Renoise Color Themes <span>— 360 themes · forum + 2 Discord servers · previews rendered by renoisethemes.com engine</span></h1>
   <div class="controls">
     <input id="q" type="search" placeholder="Search name, author, or uploader…" autocomplete="off">
     <select id="src">
@@ -86,8 +86,9 @@ Text, icons, and unmapped regions are synthesized, so actual rendering may diffe
 <main id="grid"></main>
 <footer>
   Archived from the Renoise forum thread
-  <a href="https://forum.renoise.com/t/color-themes-for-renoise/18003">“Color Themes For Renoise”</a>
-  and the <a href="https://discord.gg/hy48JMSHKc">Renoise Themes &amp; Stuff</a> Discord
+  <a href="https://forum.renoise.com/t/color-themes-for-renoise/18003">“Color Themes For Renoise”</a>,
+  the <a href="https://discord.gg/hy48JMSHKc">Renoise Themes &amp; Stuff</a> Discord,
+  and the Renoise Community Server Discord
   · themes © their authors (see <a href="catalog.json">catalog.json</a>) ·
   raw files in <a href="themes/">themes/</a> · <a href="https://github.com/mene311/renoise-forum-color-themes">repo</a>
 </footer>
@@ -122,7 +123,8 @@ function credit(t) {
   }
   return 'author unverified · uploaded by <span class="author">@' + esc(t.posted_by || '?') + '</span>' +
     ' · ' + esc(t.date) +
-    ' · <span style="color:#8b93a7" title="Discord CDN links expire; the file in themes/ is the source of truth">' + esc(t.posted_in || '') + '</span>';
+    ' · <span style="color:#8b93a7" title="Discord CDN links expire; the file in themes/ is the source of truth">' +
+    esc((t.server ? t.server + ' ' : '') + (t.posted_in || '')) + '</span>';
 }
 function render() {
   const q = qEl.value.trim().toLowerCase();
