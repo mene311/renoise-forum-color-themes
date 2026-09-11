@@ -22,7 +22,7 @@ from four community sources:
 |---|---|
 | `themes/` | 560 `.xrnc` theme files. Naming: forum `<post>_<name>.xrnc` · official gallery `webftp_<name>.xrnc` · Discord `dc<message_id>_<name>.xrnc` · bulk zip `zth_<name>.xrnc` |
 | `previews/` | Rendered preview for every theme (see disclaimer below) |
-| `catalog.json` | Machine-readable index: file, theme name, author/uploader, date, original filename, source URL, sha256, size |
+| `catalog.json` | Machine-readable index: file, theme name, author/uploader, date, original filename, source URL, sha256, size, palette (mode/accent/luminance), variant groups, and de-duplication aliases |
 | `dead-links.csv` | 45 external download links from the forum thread that are gone (mostly 2006–2012 hosting) — documented loss |
 | `scripts/` | The harvesting scripts used to collect both archives (reproducibility) |
 
@@ -65,9 +65,39 @@ Amiga_OS_Theme_Final_heller{,_2,_4,_5,_5_stronger_VU_meter,_...meter1}     → o
 The redundant *files* are gone; their provenance is not — each alias keeps uploader, date, channel,
 message id, sha256, CDN URL, plus `duplicate_of` and `duplicate_reason`.
 
-**Deliberate variants are never deleted.** All 36 families are kept in full and tagged with a
-`variant_group`; the gallery shows **one card per family with a `×N variants` badge**, taking the grid
-from 560 cards to **508**, with every file one uncheck away (*group variants*).
+**Deliberate variants are never deleted and are listed separately.** All 36 families are kept in full
+and tagged with a `variant_group`, so every one of the 560 themes is its own card and every file is
+downloadable. The gallery also offers an optional *group variants* checkbox (off by default) that
+collapses each family to a single card with an `×N variants` badge — 508 cards — for when you want a
+quick overview rather than a full list.
+
+## Palette classification
+
+Every theme is classified by the **weighted WCAG luminance of its main surfaces**
+(`Pattern_Default_Back`, `Main_Back`, `Body_Back`, `Alternate_Main_Back`, `Button_Back`):
+
+| `palette.mode` | Count | Rule |
+|---|---|---|
+| `dark` | 409 | luminance < 0.25 |
+| `mid` | 75 | 0.25 – 0.55 |
+| `light` | 76 | > 0.55 |
+
+`palette.lum` stores the raw value, so you can re-threshold to taste.
+
+**How accurate is it?** On the 89 themes whose *names* say `dark`/`black`/`night` or
+`light`/`white`/`bright`, the classifier agrees **84%** of the time — and most disagreements are the
+**name** being wrong, not the classifier. Verified by hand: `Basic Light Theme` is actually mid-grey
+(`Main_Back` 121,121,121), and `the secret fire bright` is near-black (`Main_Back` 30,15,0).
+
+`palette.accent` separately records the hue of the **selection colour**
+(`Selected_Button_Back` / `StandBy_Selection_Back`) — the element that carries a theme's identity
+colour. It is correct **16/16** on the `Dark macOS <COLOUR>` variant set (where BLUE really is 212°
+and GREEN 105°).
+
+> ⚠️ `accent` is *not* a whole-palette hue. Themes like `Yellow Mellow` have a neutral selection
+> colour and a yellow background, so the accent reads `neutral`. A single "theme colour" label is
+> genuinely ambiguous — it only reached ~46% agreement with colour words in theme names — so it is
+> offered as an **accent** attribute, not as a filter.
 
 ## ⚠️ Attribution of Discord-sourced themes
 
