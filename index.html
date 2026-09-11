@@ -31,6 +31,11 @@
     font-size: 10px; letter-spacing: .05em; vertical-align: 1px; }
   .chk { display: inline-flex; align-items: center; gap: 5px; color: #8b93a7;
     font-size: 13px; cursor: pointer; user-select: none; }
+  .pal { border-radius: 5px; padding: 1px 5px; font-size: 10px; letter-spacing: .05em; vertical-align: 1px; }
+  .pal-dark  { background: #1b2230; color: #9fb0cc; }
+  .pal-mid   { background: #2b3140; color: #b9c4d6; }
+  .pal-light { background: #d8dee9; color: #2b3140; }
+  .acc { font-size: 10px; letter-spacing: .05em; vertical-align: 1px; opacity: .75; }
   input { width: 220px; }
   .count { color: #8b93a7; font-size: 12px; margin-right: 4px; }
   .notice {
@@ -82,8 +87,14 @@
       <option value="name">name A–Z</option>
       <option value="author">author A–Z</option>
     </select>
-    <label class="chk" title="Authors posted deliberate version series (v1/v2, RC1/RC2, brightness variants). Grouping shows one card per series instead of one per file.">
-      <input type="checkbox" id="grp" checked> group variants
+    <select id="pal">
+      <option value="all">all palettes</option>
+      <option value="dark">dark</option>
+      <option value="mid">mid</option>
+      <option value="light">light</option>
+    </select>
+    <label class="chk" title="Authors posted deliberate version series (v1/v2, RC1/RC2, brightness variants). They are listed separately by default; tick this to show one card per series instead.">
+      <input type="checkbox" id="grp"> group variants
     </label>
     <span class="count" id="count"></span>
   </div>
@@ -107,6 +118,7 @@ const qEl = document.getElementById('q');
 const sortEl = document.getElementById('sort');
 const srcEl = document.getElementById('src');
 const grpEl = document.getElementById('grp');
+const palEl = document.getElementById('pal');
 let data = [];
 
 function url(path) {
@@ -143,9 +155,10 @@ function credit(t) {
 }
 function render() {
   const q = qEl.value.trim().toLowerCase();
-  const sort = sortEl.value, src = srcEl.value, group = grpEl.checked;
+  const sort = sortEl.value, src = srcEl.value, group = grpEl.checked, pal = palEl.value;
   let items = data.filter(t =>
     (src === 'all' || (t.source || 'forum') === src) &&
+    (pal === 'all' || (t.palette && t.palette.mode) === pal) &&
     (!q || t.name.toLowerCase().includes(q)
         || (t.author||'').toLowerCase().includes(q)
         || (t.posted_by||'').toLowerCase().includes(q)));
@@ -171,11 +184,15 @@ function render() {
     const badge = t.source === 'discord' ? ' <span class="src">discord</span>'
       : t.source === 'renoise-webftp' ? ' <span class="src">official</span>' : '';
     const n = t.variant_group ? vcount[t.variant_group] : 0;
-    const vbadge = n > 1 ? ' <span class="vsrc" title="Deliberate version series by the same author - uncheck “group variants” to see all ' + n + ' files">×' + n + ' variants</span>' : '';
+    const vbadge = t.variant_group ? ' <span class="vsrc" title="Part of a version series by one author (' + n + ' files)' + (group ? ' - shown collapsed' : '') + '">family of ' + n + '</span>' : '';
+    const pm = t.palette ? t.palette.mode : null;
+    const pbadge = pm ? ' <span class="pal pal-' + pm + '" title="Weighted luminance ' + t.palette.lum + ' of the main surfaces">' + pm + '</span>' : '';
+    const abadge = (t.palette && t.palette.accent && t.palette.accent !== 'neutral')
+      ? ' <span class="acc" title="Accent hue (selection colour)">' + t.palette.accent + ' accent</span>' : '';
     f.innerHTML =
       '<div class="thumb"><img loading="lazy" src="' + prev + '" alt="' + esc(t.name) + ' preview"></div>' +
       '<figcaption>' +
-      '<div class="name">' + esc(t.name) + badge + vbadge + '</div>' +
+      '<div class="name">' + esc(t.name) + badge + vbadge + pbadge + abadge + '</div>' +
       '<div class="meta">' + credit(t) + '</div>' +
       '<div class="links">' +
       '<a class="btn dl" href="' + url('themes/' + t.file) + '">⬇ .xrnc</a>' +
@@ -187,6 +204,7 @@ function render() {
 qEl.addEventListener('input', render);
 sortEl.addEventListener('change', render);
 srcEl.addEventListener('change', render);
+palEl.addEventListener('change', render);
 grpEl.addEventListener('change', render);
 init();
 </script>
