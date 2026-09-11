@@ -1,6 +1,6 @@
 # Renoise Color Themes — Archive
 
-A curated, attribution-preserving archive of **561 Renoise color themes (`.xrnc`)**
+A curated, attribution-preserving archive of **560 Renoise color themes (`.xrnc`)**
 from four community sources:
 
 | Source | Themes | Where |
@@ -8,9 +8,9 @@ from four community sources:
 | **Renoise Forum** — [“Color Themes For Renoise”](https://forum.renoise.com/t/color-themes-for-renoise/18003) thread, running since Sept 2006 | 229 | forum post uploads |
 | **Official Renoise theme gallery** (webftp mirror, captured 2022-03) | 95 | `<Author>-<Theme>` folders — **author verified from the gallery itself** |
 | **Discord** — [Renoise Themes & Stuff](https://discord.gg/hy48JMSHKc) | 103 | server attachments, mostly mod-curated `★` showcase channels |
-| **Discord** — Renoise Community Server (`#themes`, incl. a 128-file `themes.zip`) | 145 → 134 after de-duplication | server attachments |
+| **Discord** — Renoise Community Server (`#themes`, incl. a 128-file `themes.zip`) | 145 → 133 after de-duplication | server attachments |
 
-**324 of 561 themes carry a verified author** (forum 229 + gallery 95). The other 237 are Discord uploads where authorship could not be proven — see below.
+**323 of 560 themes carry a verified author** (forum 228 + gallery 95). The other 237 are Discord uploads where authorship could not be proven — see below.
 
 > ⚠️ **This is an archive, not an authorship claim.** Every theme is the work of its
 > original author. If you are an author and want your theme removed or re-credited,
@@ -20,13 +20,13 @@ from four community sources:
 
 | Path | Contents |
 |---|---|
-| `themes/` | 561 `.xrnc` theme files. Naming: forum `<post>_<name>.xrnc` · official gallery `webftp_<name>.xrnc` · Discord `dc<message_id>_<name>.xrnc` · bulk zip `zth_<name>.xrnc` |
+| `themes/` | 560 `.xrnc` theme files. Naming: forum `<post>_<name>.xrnc` · official gallery `webftp_<name>.xrnc` · Discord `dc<message_id>_<name>.xrnc` · bulk zip `zth_<name>.xrnc` |
 | `previews/` | Rendered preview for every theme (see disclaimer below) |
 | `catalog.json` | Machine-readable index: file, theme name, author/uploader, date, original filename, source URL, sha256, size |
 | `dead-links.csv` | 45 external download links from the forum thread that are gone (mostly 2006–2012 hosting) — documented loss |
 | `scripts/` | The harvesting scripts used to collect both archives (reproducibility) |
 
-**Size:** ~2.9 MB of themes (561 files) + preview images.
+**Size:** ~2.9 MB of themes (560 files) + preview images.
 
 > ⚠️ **Preview disclaimer:** the images in `previews/` and on the
 > [gallery](https://mene311.github.io/renoise-forum-color-themes/) are **not screenshots** of
@@ -37,26 +37,37 @@ from four community sources:
 
 ## De-duplication
 
-Same-named files were **not** assumed to be duplicates — many are deliberate version series by one
-author. So every theme was fingerprinted by its **actual colour map** (parsed from the `.xrnc` XML),
-and two files count as identical only if all ~86 colour elements match.
+Files were **not** compared by name or by bytes. Same-named files are often deliberate version series,
+and byte comparison misses the same theme re-saved. Instead every theme is fingerprinted by its
+**actual colour map** (parsed from the `.xrnc` XML) and clustered by **relative colour distance**:
+two themes join a family when **≤8% of their ~86 colour elements differ**.
 
-**11 entries were collapsed** (572 → 561) and preserved in `catalog.json` under `aliases`, so the
-upload record survives even though the redundant file is gone:
+This matters because the families usually have *unrelated filenames* — name matching found 6 of them,
+colour matching finds **36**:
 
-| Kind | Example | Why collapsed |
-|---|---|---|
-| Identical colour map | `Amiga_OS_Theme_Final_other{,_2,_3,_4}` — 4 files, byte-different, *colour-identical* | Genuinely the same theme |
-| Same theme on two sites | `1160_LotuaStation - #6E58F4.xrnc` (forum) and its Discord copy; `BloodSugar (Glide)` likewise | Same author re-uploaded to a second site; only 1 of 86 elements differs (re-save noise) |
+```
+Neocortex_White_Final_Softbuttons        ┐
+Neocortex_White_Final_Softbuttons__Softbars ├ 4 files, 2-6 of 86 elements differ
+Neocortex_White_Final_Inversbuttons      │  → one family
+Neocortex_White_Final_Inversbuttons__Softbars ┘
 
-**Deliberate variants are kept**, not deleted — 6 families get a `variant_group` and the gallery shows
-one card each with a `×N variants` badge (uncheck *group variants* to see every file):
+Impulsetracker10.7.3.5.6{FF,FFF,FFFF,FF_alternativ,.2_inv_selectionF,...}  → one family, 6 files
+Amiga_OS_Theme_Final_heller{,_2,_4,_5,_5_stronger_VU_meter,_...meter1}     → one family, 6 files
+```
 
-- `Amiga_OS_Theme_Final_heller{,_1,_2,_4,_5}` — brightness variants, posted by their author as alternatives
-- `Octamed8.5_buttons_other4.2.{1,2,3}` — saturation variants ("choose what you most likely")
-- `solarized_plastic_RC1/RC2`, `Neon v1/v2`, `Bluey/v2`, `NoiseLabs` — explicit version series
+**12 entries were collapsed** (572 → 560) and preserved in `catalog.json` under `aliases`:
 
-Grouping the gallery takes it from 561 cards to **552**, with the rest one click away.
+| Kind | Example |
+|---|---|
+| Identical colour map | `Amiga_OS_Theme_Final_other{,_2,_3,_4}` — 4 files, byte-different, colour-identical |
+| Same theme on two sites | `1160_LotuaStation - #6E58F4.xrnc` + its Discord copy (1 of 86 elements apart) — same for 5 more LotuaStation themes and `BloodSugar (Glide)` |
+
+The redundant *files* are gone; their provenance is not — each alias keeps uploader, date, channel,
+message id, sha256, CDN URL, plus `duplicate_of` and `duplicate_reason`.
+
+**Deliberate variants are never deleted.** All 36 families are kept in full and tagged with a
+`variant_group`; the gallery shows **one card per family with a `×N variants` badge**, taking the grid
+from 560 cards to **508**, with every file one uncheck away (*group variants*).
 
 ## ⚠️ Attribution of Discord-sourced themes
 
