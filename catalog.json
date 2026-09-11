@@ -29,9 +29,9 @@
   }
  ],
  "source": "https://forum.renoise.com/t/color-themes-for-renoise/18003",
- "count": 561,
+ "count": 560,
  "counts": {
-  "forum": 229,
+  "forum": 228,
   "discord": 237,
   "renoise-webftp": 95
  },
@@ -227,7 +227,8 @@
    "url": "https://forum.renoise.com/uploads/short-url/75DNs4HZXo6H3R4l448Fw7L2fOE.xrnc",
    "sha256": "3e5c28cb5f3676e60ab5e3cf2de56d69cdc5138ff4f73e464b59f1228b2bb1c2",
    "size_bytes": 5071,
-   "source": "forum"
+   "source": "forum",
+   "variant_group": "fancy-blue-shockbroker"
   },
   {
    "file": "0657_darktheme.xrnc",
@@ -239,7 +240,8 @@
    "url": "https://forum.renoise.com/uploads/short-url/3KrPaqOUCq8GbqKlz0lXD5lNlAh.xrnc",
    "sha256": "ebacf2ef5ae5c269750e663c197c2a6b7bb4397c258d744b5929b47659da9b3f",
    "size_bytes": 5138,
-   "source": "forum"
+   "source": "forum",
+   "variant_group": "darktheme"
   },
   {
    "file": "0665_ReduxTHM02.xrnc",
@@ -348,7 +350,8 @@
    "url": "https://forum.renoise.com/uploads/short-url/A5wBeoHUIzenUU5flMfJZ4oSvra.xrnc",
    "sha256": "29f793b177016b8deea4804dac913f395cb7c75379c9163453c84292f5b3dbba",
    "size_bytes": 5134,
-   "source": "forum"
+   "source": "forum",
+   "variant_group": "fancy-blue-shockbroker"
   },
   {
    "file": "0716_Renoise-rgb84-theme-spacedrone808.xrnc",
@@ -372,7 +375,8 @@
    "url": "https://forum.renoise.com/uploads/short-url/lAcrYtODqFmDwzJOBRnK4NTTTYt.xrnc",
    "sha256": "6bfae4ada577e2a746aacc4688d3109783bc91407dfcb205722d800b9668bcbf",
    "size_bytes": 5070,
-   "source": "forum"
+   "source": "forum",
+   "variant_group": "colorful-final3-black-special-meter-fixe"
   },
   {
    "file": "0740_808Dark.xrnc",
@@ -432,7 +436,8 @@
    "url": "https://forum.renoise.com/uploads/short-url/o0aKNFAMjiMFSfuPi7pYP2gAu5C.xrnc",
    "sha256": "016bea71b2273804ad38c1c7dec28c9fa8be26a6cc77c963c6812013bb8e91cb",
    "size_bytes": 5130,
-   "source": "forum"
+   "source": "forum",
+   "variant_group": "amegas-4k-ii"
   },
   {
    "file": "0766_purple poison arrow frog.xrnc",
@@ -492,7 +497,8 @@
    "url": "https://forum.renoise.com/uploads/short-url/xwvaVowHKmG7S1acPkMOf1yZnMg.xrnc",
    "sha256": "86bd712dda45945a122c4ab116290eee7d31f284cabf8c3739d4497c2961cd6d",
    "size_bytes": 5131,
-   "source": "forum"
+   "source": "forum",
+   "variant_group": "darktheme"
   },
   {
    "file": "0772_DoomScroll.xrnc",
@@ -732,7 +738,8 @@
    "url": "https://forum.renoise.com/uploads/short-url/h4BR3XdBqjg0oAwkA9yl1tw3AxL.xrnc",
    "sha256": "d8b433c7a0f14e34ad95717a87d8270100628194f010eec45e5ad590c3935461",
    "size_bytes": 5092,
-   "source": "forum"
+   "source": "forum",
+   "variant_group": "ag-casiino"
   },
   {
    "file": "0814_default3.0.xrnc",
@@ -888,7 +895,8 @@
    "url": "https://forum.renoise.com/uploads/short-url/68vM9CPBqGYxkgwY8VbFkOnS5uO.xrnc",
    "sha256": "d794d0e4be1468b0b32aa9a4f403135f9eb33fd7a87ad914600c19ffd1db8c9f",
    "size_bytes": 5049,
-   "source": "forum"
+   "source": "forum",
+   "variant_group": "ableton-live-grymmjack"
   },
   {
    "file": "0827_Ableton Live 10 Contrast (grymmjack).xrnc",
@@ -900,19 +908,8 @@
    "url": "https://forum.renoise.com/uploads/short-url/x9qtGcwR6wFCIYflbFNCcfHk2Oj.xrnc",
    "sha256": "86d8d06707649d837d5857d9290077049f7ca1cc6253830d3731f273332b1cf9",
    "size_bytes": 5060,
-   "source": "forum"
-  },
-  {
-   "file": "0827_Ableton Live 10 Contrast Soft (grymmjack).xrnc",
-   "name": "Ableton Live 10 Contrast Soft (grymmjack)",
-   "author": "grymmjack",
-   "post": 827,
-   "date": "2022-12-01",
-   "forum_filename": "Ableton Live 10 Contrast Soft (grymmjack).xrnc",
-   "url": "https://forum.renoise.com/uploads/short-url/1pYudtbFTfhlmg18kDNBe5P5jLu.xrnc",
-   "sha256": "a275f2bc8cfd4da3e81a80426e72fa1014123daf89062f2bd5a8116c16c9d845",
-   "size_bytes": 5071,
-   "source": "forum"
+   "source": "forum",
+   "variant_group": "ableton-live-grymmjack"
   },
   {
    "file": "0827_Ableton Live 11 Dark (grymmjack).xrnc",
@@ -1092,7 +1089,8 @@
    "url": "https://forum.renoise.com/uploads/short-url/aC1VXjSLlb4wV6OYgxmRbbiNXYw.xrnc",
    "sha256": "85e6622aea3c6a144e510ebac0141677b81449428cd900770d1d4b526e2efdb7",
    "size_bytes": 5134,
-   "source": "forum"
+   "source": "forum",
+   "variant_group": "s3000xl"
   },
   {
    "file": "0849_Vintage Body Terminal.xrnc",
@@ -1128,7 +1126,8 @@
    "url": "https://forum.renoise.com/uploads/short-url/3DR2oR9k3yqOVf8i0itswqgWYke.xrnc",
    "sha256": "b90595ae635706f80a7beca6168b6b38265a9997bfe5901d6ca89182e19cdbbd",
    "size_bytes": 5103,
-   "source": "forum"
+   "source": "forum",
+   "variant_group": "ag-casiino"
   },
   {
    "file": "0868_FT2 Platinum.xrnc",
@@ -1344,7 +1343,8 @@
    "url": "https://forum.renoise.com/uploads/short-url/fnxwMlxMwtv9zcWd41d2wO7HSZY.xrnc",
    "sha256": "750f3aa8f7df8c915c74c79bec3035bb456a3a6c3945b28e2a15bc7fcbe0fa9c",
    "size_bytes": 5218,
-   "source": "forum"
+   "source": "forum",
+   "variant_group": "kawaii-pico-pink-purple"
   },
   {
    "file": "0945_Kawaii PICO-8 Cream & Purple.xrnc",
@@ -1356,7 +1356,8 @@
    "url": "https://forum.renoise.com/uploads/short-url/yOSgjELucsACPsVZLXqVswQn3lX.xrnc",
    "sha256": "aaf7502c21c59bb707e394607bba7de63f23eefc56b7b8c1a2ff61ce286fd188",
    "size_bytes": 5218,
-   "source": "forum"
+   "source": "forum",
+   "variant_group": "kawaii-pico-pink-purple"
   },
   {
    "file": "0956_RiddimCommander97.xrnc",
@@ -1368,7 +1369,8 @@
    "url": "https://forum.renoise.com/uploads/short-url/rcuZJhRSuO9Sk2WSWmTf0Kkp3oI.xrnc",
    "sha256": "ec77ee93c330b692b68cf02d6714b1ade600ed686a4814afbe03bfbf0727b090",
    "size_bytes": 5107,
-   "source": "forum"
+   "source": "forum",
+   "variant_group": "riddimcommander97"
   },
   {
    "file": "0956_RiddimCommander97v2_BlackCursor.xrnc",
@@ -1380,7 +1382,8 @@
    "url": "https://forum.renoise.com/uploads/short-url/7RlCa3LING39bdTSFYQmA0Km2UP.xrnc",
    "sha256": "3062d3e049b60747e6d397037a3c2f089ac0dd819fbb1dba48255b19a06e801b",
    "size_bytes": 5105,
-   "source": "forum"
+   "source": "forum",
+   "variant_group": "riddimcommander97"
   },
   {
    "file": "0960_Colorful (NPC1) 2.xrnc",
@@ -1741,7 +1744,8 @@
    "url": "https://forum.renoise.com/uploads/short-url/bla2HLWMu3ARPk9emffLuhTwjwz.xrnc",
    "sha256": "6f581f4d4c9fc9c15ef1bdf88dabf0d9e12b1df594a2b9d1db7c8882db34f01b",
    "size_bytes": 5129,
-   "source": "forum"
+   "source": "forum",
+   "variant_group": "dark-macos-pink-tomek-osiowy"
   },
   {
    "file": "1011_Dark macOS PURPLE (Tomek Osiowy).xrnc",
@@ -1753,7 +1757,8 @@
    "url": "https://forum.renoise.com/uploads/short-url/36pQ6OfBRuicCZd7VH0v7HcEuK7.xrnc",
    "sha256": "a871e13fc9366cc29226f99b70ded4cc684d46173652889078e6c04e7e2c8deb",
    "size_bytes": 5129,
-   "source": "forum"
+   "source": "forum",
+   "variant_group": "dark-macos-pink-tomek-osiowy"
   },
   {
    "file": "1011_Dark macOS RED (Tomek Osiowy).xrnc",
@@ -1765,7 +1770,8 @@
    "url": "https://forum.renoise.com/uploads/short-url/dDX9QmocEJJm2C8EncpalSa3WLP.xrnc",
    "sha256": "bba6c48db7ba480f30aa9ad03772ec73e25f37c49eca3cf021c9b1e00e4cf40e",
    "size_bytes": 5124,
-   "source": "forum"
+   "source": "forum",
+   "variant_group": "dark-macos-pink-tomek-osiowy"
   },
   {
    "file": "1011_Dark macOS YELLOW (Tomek Osiowy).xrnc",
@@ -2053,7 +2059,8 @@
    "url": "https://forum.renoise.com/uploads/short-url/s4kUBr3lwEbdCMdEVpeRZA5Nnzb.xrnc",
    "sha256": "81a43a957bb8fe745f964b2ca814fe1bb78324c35975a94fed614270fa548fec",
    "size_bytes": 5117,
-   "source": "forum"
+   "source": "forum",
+   "variant_group": "un-blackforestcake"
   },
   {
    "file": "1044_Chakraa (Skatman_Jan).xrnc",
@@ -2149,7 +2156,8 @@
    "url": "https://forum.renoise.com/uploads/short-url/xpzArPuom2FUaK69gAw6i3D3O2k.xrnc",
    "sha256": "251299ff03668987d34e12e102c384363c25b732f545efd292186ce7d03806ac",
    "size_bytes": 5111,
-   "source": "forum"
+   "source": "forum",
+   "variant_group": "cyberpunk1"
   },
   {
    "file": "1063_Osi-TheBlueBrandy.xrnc",
@@ -2209,7 +2217,8 @@
    "url": "https://forum.renoise.com/uploads/short-url/dE1sY7p63Jf2IJXXzI3lV0zDk99.xrnc",
    "sha256": "9c7777ad4418fc28acfabd8d4c53dc965a97d196705897c593e1d57c0e841a02",
    "size_bytes": 5107,
-   "source": "forum"
+   "source": "forum",
+   "variant_group": "cyberpunk1"
   },
   {
    "file": "1089_nier_automata.xrnc",
@@ -2245,7 +2254,8 @@
    "url": "https://forum.renoise.com/uploads/short-url/fSKhTS7rFxmPq9HJG8XId9zOtQF.xrnc",
    "sha256": "d2707763768bf2824f0934461b6ef725cdc32b005d4cc6d316068ba8829c0732",
    "size_bytes": 5130,
-   "source": "forum"
+   "source": "forum",
+   "variant_group": "amegas-4k-ii"
   },
   {
    "file": "1093_amigaos3 4k.xrnc",
@@ -2865,7 +2875,8 @@
    "sha256": "5f1bbbaac0760888c97a05b969748de7fc423509dd98e5f5771518d293164275",
    "size_bytes": 5109,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "renoise-theme-reinterpreted"
   },
   {
    "file": "dc886251272985018419_Titanium-gray.xrnc",
@@ -2897,7 +2908,8 @@
    "sha256": "d404cd713baea3f87da853372d9d70925be6c9641d880dc90cb9f6095d1c926c",
    "size_bytes": 5070,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "colorful-final3-black-special-meter-fixe"
   },
   {
    "file": "dc888165064262164511_Digital_Camo_Theme_Mk.2.xrnc",
@@ -2961,7 +2973,8 @@
    "sha256": "5d71a3a2906af76525d3982733da6d56dc52880df66ee8b1740451b6102bdb54",
    "size_bytes": 5098,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "white-clearness"
   },
   {
    "file": "dc891022142433550426_Ableton_Remix_Final.xrnc",
@@ -3009,7 +3022,8 @@
    "sha256": "17a472b02afbd2903f849227bd317e42bfe90196067b457b66e40d8a9d5f7901",
    "size_bytes": 5177,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "platinum-gray"
   },
   {
    "file": "dc916341807468662824_Platinum_Gray_2.xrnc",
@@ -3025,7 +3039,8 @@
    "sha256": "9c31dcc95c8233ce6ddb0abbb6657d89c8a6585804622f0bb9945c1f12e05d78",
    "size_bytes": 5165,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "platinum-gray"
   },
   {
    "file": "dc926486004385329162_logic.xrnc",
@@ -3089,7 +3104,8 @@
    "sha256": "b98b45778700cd0fbbea3c973ea6cccf8268e47ce09e5cd5e2723591e912716e",
    "size_bytes": 5085,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "impulsetracker10-6fff"
   },
   {
    "file": "dc943558564486709269_Impulsetracker10.7.3.5.6.2_inv_selectionF_Strong_Body.xrnc",
@@ -3105,7 +3121,8 @@
    "sha256": "640707d09d5afad5e102a17e0ed2639416276a47d960ba34e49cc87fecb46e1e",
    "size_bytes": 5088,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "impulsetracker10-6fff"
   },
   {
    "file": "dc943337186210771025_Impulsetracker10.7.3.5.6FF.xrnc",
@@ -3121,7 +3138,8 @@
    "sha256": "7a176fc29a9391ec37743d660427e0718fe8431a54770baed23f7544d5bd6104",
    "size_bytes": 5086,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "impulsetracker10-6fff"
   },
   {
    "file": "dc943337867596406874_Impulsetracker10.7.3.5.6FF_alternativ.xrnc",
@@ -3137,7 +3155,8 @@
    "sha256": "0c37baa3115e96c035a4659dcaed8dbb0f18694437f5efdf4a94858a05e44c3b",
    "size_bytes": 5085,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "impulsetracker10-6fff"
   },
   {
    "file": "dc943337186051371058_Impulsetracker10.7.3.5.6FFF.xrnc",
@@ -3153,7 +3172,8 @@
    "sha256": "fa6e6276e297d1485c62550fb0b93999893cbf93960d69e4fe2d2ada82b08721",
    "size_bytes": 5086,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "impulsetracker10-6fff"
   },
   {
    "file": "dc943337186491785286_Impulsetracker10.7.3.5.6FFFF.xrnc",
@@ -3169,7 +3189,8 @@
    "sha256": "57cfc867964a6f7ad5d26c3f4c3840a62a003786f68d9a5beea53619b0c2fbdc",
    "size_bytes": 5086,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "impulsetracker10-6fff"
   },
   {
    "file": "dc946169257220272188_Imperial_Document_Final.xrnc",
@@ -3185,7 +3206,8 @@
    "sha256": "b11308288584ac96bed2e434f7ea64149697376c2f99b75cb73a24668329820a",
    "size_bytes": 5122,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "imperial-document"
   },
   {
    "file": "dc946169299242983484_Imperial_Document_Final_Normalized_VU_Meters.xrnc",
@@ -3201,7 +3223,8 @@
    "sha256": "87390791da5ea338a91db9db0f7e9612f42a82c7393acf9d0068d45c9450ca3d",
    "size_bytes": 5120,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "imperial-document"
   },
   {
    "file": "dc947274091407224892_Imperial_Document_Final_Monochrom.xrnc",
@@ -3233,7 +3256,8 @@
    "sha256": "9ede21115a186d896391306de86b42631bd37dd757a1352a183d12dc54e33ac4",
    "size_bytes": 5158,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "imperial-document-satinred-variant"
   },
   {
    "file": "dc948446183230169108_Imperial_Document_Blue_Velvet_variant_final.xrnc",
@@ -3249,7 +3273,8 @@
    "sha256": "1917b97d7b2a08871705afc7892410169732f317a5c42c25868c7e8fbd04443e",
    "size_bytes": 5154,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "imperial-document-satinred-variant"
   },
   {
    "file": "dc948448956919185438_White_Clearness_more_saturation3_.xrnc",
@@ -3265,7 +3290,8 @@
    "sha256": "3080358b6b2b7df71b28d504e96c2b0a6a9a983b7b38846f8677c0385e8328fa",
    "size_bytes": 5097,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "white-clearness"
   },
   {
    "file": "dc952638628079759400_Impulsetracker10.7.3.5.6FFF_lower_saturation.xrnc",
@@ -3377,7 +3403,8 @@
    "sha256": "82c4831e8f10aa66d8d75750afe12dc6fa5d6f02ecc258c89f75c23d48749427",
    "size_bytes": 5105,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "renoise-theme-reinterpreted"
   },
   {
    "file": "dc963454615226052688_Blue_Shade_12.xrnc",
@@ -3489,7 +3516,8 @@
    "sha256": "6e29a217c3635c4cc744da6f37d7087a28daf98bbe71e40c10b178531027492f",
    "size_bytes": 5102,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "neocortex-white-softbuttons"
   },
   {
    "file": "dc1007707498897223740_Neocortex_White_Final_Inversbuttons__Softbars.xrnc",
@@ -3505,7 +3533,8 @@
    "sha256": "820c0bed571845e582bce7502833d736fbfaa20972bbb40a610f10c23db49d7f",
    "size_bytes": 5102,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "neocortex-white-softbuttons"
   },
   {
    "file": "dc1007707497945104385_Neocortex_White_Final_Softbuttons.xrnc",
@@ -3521,7 +3550,8 @@
    "sha256": "70bf5bc3ff38d5134b31e7d90195c44d67009743a3a2f36bc88826702e65e6ba",
    "size_bytes": 5099,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "neocortex-white-softbuttons"
   },
   {
    "file": "dc1007707498318417940_Neocortex_White_Final_Softbuttons__Softbars.xrnc",
@@ -3537,7 +3567,8 @@
    "sha256": "16efa578dcc4d9f47cb8dfea61dfa7adcb979247c743d89ff63007ba63986cfe",
    "size_bytes": 5099,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "neocortex-white-softbuttons"
   },
   {
    "file": "dc1010860466467254292_Autumn_Beauty_MK2_Final3_vu.xrnc",
@@ -3585,7 +3616,8 @@
    "sha256": "9be1a2e1cefde334358ae6986f82647e6abb5f5a63a96a73f3aa592944e0c4db",
    "size_bytes": 5089,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "nexus-red8-white"
   },
   {
    "file": "dc1017804497235497082_Nexus_red8_white.xrnc",
@@ -3601,7 +3633,8 @@
    "sha256": "c2f2470c7bd2c454f56d1612ecf3db7b5e9ee28b5093c2a3d7f3e9a77aa43f0c",
    "size_bytes": 5095,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "nexus-red8-white"
   },
   {
    "file": "dc1018814715746598972_yellow_mellow_Final.xrnc",
@@ -3681,7 +3714,8 @@
    "sha256": "a922605bef585a55ef9f3db6e8708eb7df3cd11f9615361d7a5a1a0dbfff817a",
    "size_bytes": 5058,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "yellow-mellow-mk2-fixed2-softcontrast3"
   },
   {
    "file": "dc1072361297255084105_Yellow_Mellow_MK2_Final_fixed2_softcontrast4_Inverse_Pattern_Highlight.xrnc",
@@ -3697,7 +3731,8 @@
    "sha256": "5dc179de3dc1d761c6a852634c3cc9f60a53dda5c77187dbdb229170fcae7053",
    "size_bytes": 5063,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "yellow-mellow-mk2-fixed2-softcontrast3"
   },
   {
    "file": "dc1072361296776925244_Yellow_Mellow_MK2_Final_fixed2_softcontrast4_Pattern_Highlight.xrnc",
@@ -3713,7 +3748,8 @@
    "sha256": "be67bd7fd6ddfa68c8b7fd91e37c16d272a6c6b6943afdb8a2e2d9eb16e16530",
    "size_bytes": 5063,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "yellow-mellow-mk2-fixed2-softcontrast3"
   },
   {
    "file": "dc1072361298190413874_Yellow_Mellow_MK2_Final_fixed2_softcontrast4_Pattern_maxsoft.xrnc",
@@ -3729,7 +3765,8 @@
    "sha256": "dff52e061a154ad0ed4bbadbfbddb6b769f2a4db353e1d14d238a4980e488fe4",
    "size_bytes": 5064,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "yellow-mellow-mk2-fixed2-softcontrast3"
   },
   {
    "file": "dc1072361297712255057_Yellow_Mellow_MK2_Final_fixed2_softcontrast4_Pattern_medsoft.xrnc",
@@ -3745,7 +3782,8 @@
    "sha256": "df6a60f377083289ea3ed5b8eecbf436fedb429aac8a2e4fe0df2fe7494848ba",
    "size_bytes": 5062,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "yellow-mellow-mk2-fixed2-softcontrast3"
   },
   {
    "file": "dc1072913937357619261_yellow_mellow_Final.xrnc",
@@ -3809,7 +3847,8 @@
    "sha256": "4071d143b3a619c5fcd4826e365079d4f7ee1ffd2cb9731e56cb82c3d39603cb",
    "size_bytes": 5059,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "amiga-os-theme"
   },
   {
    "file": "dc1127968081931681844_Amiga_OS_Theme_Final_heller.xrnc",
@@ -3826,7 +3865,7 @@
    "size_bytes": 5070,
    "source": "discord",
    "server": "Renoise Themes & Stuff",
-   "variant_group": "amigaosheller"
+   "variant_group": "amiga-os-theme-heller"
   },
   {
    "file": "dc1128037927990087750_Amiga_OS_Theme_Final_heller_2.xrnc",
@@ -3843,7 +3882,7 @@
    "size_bytes": 5078,
    "source": "discord",
    "server": "Renoise Themes & Stuff",
-   "variant_group": "amigaosheller"
+   "variant_group": "amiga-os-theme-heller"
   },
   {
    "file": "dc1128053479659819071_Amiga_OS_Theme_Final_heller_4.xrnc",
@@ -3860,7 +3899,7 @@
    "size_bytes": 5078,
    "source": "discord",
    "server": "Renoise Themes & Stuff",
-   "variant_group": "amigaosheller"
+   "variant_group": "amiga-os-theme-heller"
   },
   {
    "file": "dc1128053479252963400_Amiga_OS_Theme_Final_heller_5.xrnc",
@@ -3877,7 +3916,7 @@
    "size_bytes": 5078,
    "source": "discord",
    "server": "Renoise Themes & Stuff",
-   "variant_group": "amigaosheller"
+   "variant_group": "amiga-os-theme-heller"
   },
   {
    "file": "dc1128037928350793868_Amiga_OS_Theme_Final_other_4.xrnc",
@@ -3893,7 +3932,8 @@
    "sha256": "842e8fd5297cb0d29aac90832db780633298f80d74dc106e493d2ba58a11463e",
    "size_bytes": 5067,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "amiga-os-theme"
   },
   {
    "file": "dc1128406317573353482_Amiga_OS_Theme_Final_heller_5_stronger_VU_meter.xrnc",
@@ -3909,7 +3949,8 @@
    "sha256": "7c6801d58e165562e693a96aba719021ae1344b38adcbc184e9b30766af88666",
    "size_bytes": 5077,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "amiga-os-theme-heller"
   },
   {
    "file": "dc1128405062046195763_Amiga_OS_Theme_Final_heller_5_stronger_VU_meter1.xrnc",
@@ -3925,7 +3966,8 @@
    "sha256": "1e71b1102e32aa6c3bd0b815e867ad79710c4a05f574ec7a613ac34369b7e8f1",
    "size_bytes": 5071,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "amiga-os-theme-heller"
   },
   {
    "file": "dc1154726306664157216_Nightshade_1.0_Final.xrnc",
@@ -3941,7 +3983,8 @@
    "sha256": "0e03781e5a26983d191157bc8fa29efb47c8efebbfb1149e9da0739edd9b447d",
    "size_bytes": 5099,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "nightshade"
   },
   {
    "file": "dc1157839400290492436_Nightshade_1.0_Final_tweaked5.xrnc",
@@ -3957,7 +4000,8 @@
    "sha256": "71c8d0016676b2f6cb6d750ac50e7c18e64df6ee844fa12e510ccdae5412911c",
    "size_bytes": 5096,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "nightshade"
   },
   {
    "file": "dc1174872548538863636_Cyannotic_Final_V1.01.xrnc",
@@ -3973,7 +4017,8 @@
    "sha256": "ce59d05006d48eaeb5c0266027b671bb4d726ed7c94a6471fd7fc3e01faffe82",
    "size_bytes": 5084,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "cyannotic"
   },
   {
    "file": "dc1174872549054742528_Cyannotic_Final_V1.01_lowered_Pattern_contrast.xrnc",
@@ -3989,7 +4034,8 @@
    "sha256": "f6de4238f0204c7db86bf3430d2ad29498e57328442629f272650699857d4a5b",
    "size_bytes": 5084,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "cyannotic"
   },
   {
    "file": "dc1176667189777006592_Cyannotic_Final_V1.02_Release_Version.xrnc",
@@ -4005,7 +4051,8 @@
    "sha256": "ebdb8c9d71651418bce7fa545f283f0e9b6b16000beb66fcad94afd8919717cd",
    "size_bytes": 5077,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "cyannotic"
   },
   {
    "file": "dc1246573286826180628_Noble_Dark_RC1_oversteer_fixed.xrnc",
@@ -4038,7 +4085,7 @@
    "size_bytes": 5159,
    "source": "discord",
    "server": "Renoise Themes & Stuff",
-   "variant_group": "solarizedplastic"
+   "variant_group": "solarized-plastic"
   },
   {
    "file": "dc1256779942834737232_solarized_plastic_RC2.xrnc",
@@ -4055,7 +4102,7 @@
    "size_bytes": 5159,
    "source": "discord",
    "server": "Renoise Themes & Stuff",
-   "variant_group": "solarizedplastic"
+   "variant_group": "solarized-plastic"
   },
   {
    "file": "dc1282375120119140464_Graphite_RC1.xrnc",
@@ -4071,7 +4118,8 @@
    "sha256": "2223e022c56a5d329fe6fa9a096c1781c053c3060feb386cd718a30eb7d7bb90",
    "size_bytes": 5156,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "graphite"
   },
   {
    "file": "dc1283088310423650414_graphiteRedux.xrnc",
@@ -4103,7 +4151,8 @@
    "sha256": "79389592d7ca1650d16e5a4279f4a02ecfdaf49c95345e140d78cd0da61d4e67",
    "size_bytes": 5153,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "graphite"
   },
   {
    "file": "dc1285612850294947973_Yellow_Harmony.xrnc",
@@ -4135,7 +4184,8 @@
    "sha256": "ce0e0036f64f58f5d258d73e829f5a94537db5641a5d90950c7505a4dab64da3",
    "size_bytes": 5124,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "nomadrc1"
   },
   {
    "file": "dc1323803727475380375_Nomad_fullback1.xrnc",
@@ -4151,7 +4201,8 @@
    "sha256": "cd2f9a0cc81c7eb80d89f51f0a6c540446622d157e7fe19af3fc83e8e23050df",
    "size_bytes": 5126,
    "source": "discord",
-   "server": "Renoise Themes & Stuff"
+   "server": "Renoise Themes & Stuff",
+   "variant_group": "nomadrc1"
   },
   {
    "file": "dc1327027518141628479_last_nomad_fullback_MkII.xrnc",
@@ -4264,7 +4315,7 @@
    "size_bytes": 5007,
    "source": "discord",
    "server": "Renoise Themes & Stuff",
-   "variant_group": "octamed8buttonsother4"
+   "variant_group": "octamed8-buttons-other4"
   },
   {
    "file": "dc1448348251907428394_Octamed8.5_buttons_other4.2.2.xrnc",
@@ -4281,7 +4332,7 @@
    "size_bytes": 5009,
    "source": "discord",
    "server": "Renoise Themes & Stuff",
-   "variant_group": "octamed8buttonsother4"
+   "variant_group": "octamed8-buttons-other4"
   },
   {
    "file": "dc1448348252163543220_Octamed8.5_buttons_other4.2.3.xrnc",
@@ -4298,7 +4349,7 @@
    "size_bytes": 5007,
    "source": "discord",
    "server": "Renoise Themes & Stuff",
-   "variant_group": "octamed8buttonsother4"
+   "variant_group": "octamed8-buttons-other4"
   },
   {
    "file": "dc1493902969551323256_Ice_Candy_joule.xrnc",
@@ -4493,7 +4544,8 @@
    "sha256": "6273a23303808e518ab1f190e9cc56db7ba7ef766936befd841058da8ac39af2",
    "size_bytes": 5134,
    "source": "discord",
-   "server": "Renoise Community Server"
+   "server": "Renoise Community Server",
+   "variant_group": "s3000xl"
   },
   {
    "file": "dc1171607690095624272_Black-n-White.xrnc",
@@ -4527,7 +4579,8 @@
    "size_bytes": 5120,
    "source": "discord",
    "server": "Renoise Community Server",
-   "context": "based on Colorful (NPC1)"
+   "context": "based on Colorful (NPC1)",
+   "variant_group": "un-blackforestcake"
   },
   {
    "file": "dc1275733929088913418_Hotdog_Stand.xrnc",
@@ -5542,7 +5595,8 @@
    "author": "Raul",
    "gallery_folder": "Raul-GoldBlue-v1_",
    "url": "https://files.renoise.com/forum/downloads/Themes/",
-   "source_note": "Mirror of the official Renoise theme gallery (webftp), captured 2022-03"
+   "source_note": "Mirror of the official Renoise theme gallery (webftp), captured 2022-03",
+   "variant_group": "goldblue"
   },
   {
    "file": "webftp_GoldBlue-v1.0.xrnc",
@@ -5554,7 +5608,8 @@
    "author": "Raul",
    "gallery_folder": "Raul-GoldBlue-v1_",
    "url": "https://files.renoise.com/forum/downloads/Themes/",
-   "source_note": "Mirror of the official Renoise theme gallery (webftp), captured 2022-03"
+   "source_note": "Mirror of the official Renoise theme gallery (webftp), captured 2022-03",
+   "variant_group": "goldblue"
   },
   {
    "file": "webftp_ulneiz_graycream.xrnc",
@@ -6246,7 +6301,8 @@
    "posted_in": "#themes",
    "server": "Renoise Community Server",
    "date": "2022-04-18",
-   "source_note": "Bulk upload \"themes.zip\" (128 files)"
+   "source_note": "Bulk upload \"themes.zip\" (128 files)",
+   "variant_group": "breeze"
   },
   {
    "file": "zth_Bright.xrnc",
@@ -6344,7 +6400,8 @@
    "posted_in": "#themes",
    "server": "Renoise Community Server",
    "date": "2022-04-18",
-   "source_note": "Bulk upload \"themes.zip\" (128 files)"
+   "source_note": "Bulk upload \"themes.zip\" (128 files)",
+   "variant_group": "dm-pro-master"
   },
   {
    "file": "zth_Dark Hippie.xrnc",
@@ -7116,7 +7173,8 @@
    "posted_in": "#themes",
    "server": "Renoise Community Server",
    "date": "2022-04-18",
-   "source_note": "Bulk upload \"themes.zip\" (128 files)"
+   "source_note": "Bulk upload \"themes.zip\" (128 files)",
+   "variant_group": "perfect-dark"
   },
   {
    "file": "zth_Phase.xrnc",
@@ -7144,7 +7202,8 @@
    "posted_in": "#themes",
    "server": "Renoise Community Server",
    "date": "2022-04-18",
-   "source_note": "Bulk upload \"themes.zip\" (128 files)"
+   "source_note": "Bulk upload \"themes.zip\" (128 files)",
+   "variant_group": "perfect-dark"
   },
   {
    "file": "zth_Pro Master 9000.xrnc",
@@ -7158,7 +7217,8 @@
    "posted_in": "#themes",
    "server": "Renoise Community Server",
    "date": "2022-04-18",
-   "source_note": "Bulk upload \"themes.zip\" (128 files)"
+   "source_note": "Bulk upload \"themes.zip\" (128 files)",
+   "variant_group": "dm-pro-master"
   },
   {
    "file": "zth_Pulsar Glow.xrnc",
@@ -7200,7 +7260,8 @@
    "posted_in": "#themes",
    "server": "Renoise Community Server",
    "date": "2022-04-18",
-   "source_note": "Bulk upload \"themes.zip\" (128 files)"
+   "source_note": "Bulk upload \"themes.zip\" (128 files)",
+   "variant_group": "breeze"
   },
   {
    "file": "zth_Red 2.xrnc",
@@ -7521,6 +7582,20 @@
  },
  "aliases": [
   {
+   "file": "0827_Ableton Live 10 Contrast Soft (grymmjack).xrnc",
+   "name": "Ableton Live 10 Contrast Soft (grymmjack)",
+   "author": "grymmjack",
+   "post": 827,
+   "date": "2022-12-01",
+   "forum_filename": "Ableton Live 10 Contrast Soft (grymmjack).xrnc",
+   "url": "https://forum.renoise.com/uploads/short-url/1pYudtbFTfhlmg18kDNBe5P5jLu.xrnc",
+   "sha256": "a275f2bc8cfd4da3e81a80426e72fa1014123daf89062f2bd5a8116c16c9d845",
+   "size_bytes": 5071,
+   "source": "forum",
+   "duplicate_of": "0827_Ableton Live 10 Contrast (grymmjack).xrnc",
+   "duplicate_reason": "identical colour map"
+  },
+  {
    "file": "dc1128037928686342245_Amiga_OS_Theme_Final_heller_1.xrnc",
    "name": "Amiga OS Theme Final heller 1",
    "author": null,
@@ -7726,5 +7801,5 @@
   }
  ],
  "aliases_note": "Entries listed in `aliases` are byte-different copies of a theme already archived: either an identical colour map, or the same theme re-uploaded to a second site by its own author. The canonical file is kept in `themes/`; the duplicate's provenance (uploader, date, channel, CDN URL) is preserved here so the record of the upload is not lost.",
- "variant_note": "Entries sharing a `variant_group` are deliberate version series by one author (e.g. GoldBlue v1.0-1.2, Amiga OS brightness variants, RC1/RC2), not duplicates. The gallery groups them."
+ "variant_note": "Entries sharing a `variant_group` were clustered by COLOUR-MAP distance (<=8% of the ~86 colour elements differ), not by name - many families have unrelated filenames (e.g. `Neocortex_White_Final_{Softbuttons,Inversbuttons}` and their `__Softbars` variants, or `Impulsetracker10.7.3.5.6{FF,FFF,FFFF}`). These are deliberate variant series by one author, not duplicates, so every file is kept; the gallery shows one card per family with a 'xN variants' badge."
 }
