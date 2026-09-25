@@ -96,9 +96,12 @@ const grpEl = document.getElementById('grp');
 const palEl = document.getElementById('pal');
 let data = [];
 
+// Files are served from this site's own origin on purpose: GitHub Pages hands unknown
+// extensions back as application/octet-stream, so .xrnc downloads straight away, while the
+// github.com raw endpoint labels them text/plain and browsers open them as text instead.
+// Same origin also means the download attribute below is honoured.
 function url(path) {
-  return 'https://github.com/mene311/renoise-forum-color-themes/raw/master/' +
-    path.split('/').map(encodeURIComponent).join('/');
+  return path.split('/').map(encodeURIComponent).join('/');
 }
 function stem(f) { return f.replace(/\.xrnc$/i, ''); }
 function enc(p) { return p.split('/').map(encodeURIComponent).join('/'); }
@@ -171,7 +174,7 @@ function render() {
       '<div class="name">' + esc(t.name) + badge + vbadge + pbadge + abadge + '</div>' +
       '<div class="meta">' + credit(t) + '</div>' +
       '<div class="links">' +
-      '<a class="btn dl" href="' + url('themes/' + t.file) + '">&darr; .xrnc</a>' +
+      '<a class="btn dl" href="' + url('themes/' + t.file) + '" download="' + esc(t.file) + '">&darr; .xrnc</a>' +
       '<a class="btn" href="' + prev + '" target="_blank">preview</a>' +
       '</div></div>';
     GRID.appendChild(f);
