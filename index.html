@@ -3,114 +3,89 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Renoise Forum Color Themes — Gallery</title>
-<style>
-  :root { color-scheme: dark; }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0; background: #0d1017; color: #dfe4ee;
-    font: 15px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-  }
-  header {
-    position: sticky; top: 0; z-index: 5;
-    background: rgba(13,16,23,.92); backdrop-filter: blur(6px);
-    border-bottom: 1px solid #232936; padding: 12px 20px;
-    display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between;
-  }
-  h1 { font-size: 17px; margin: 0; letter-spacing: .02em; }
-  h1 span { color: #8b93a7; font-weight: 400; font-size: 13px; }
-  .controls { display: flex; gap: 8px; flex-wrap: wrap; }
-  input, select {
-    background: #171b24; color: #dfe4ee; border: 1px solid #2c3342;
-    border-radius: 8px; padding: 7px 10px; font-size: 13px; outline: none;
-  }
-  input:focus, select:focus { border-color: #37e2d5; }
-  .src { background: #232b3a; color: #8b93a7; border-radius: 5px; padding: 1px 5px;
-    font-size: 10px; text-transform: uppercase; letter-spacing: .05em; vertical-align: 1px; }
-  .vsrc { background: #2a2340; color: #b9a6e6; border-radius: 5px; padding: 1px 5px;
-    font-size: 10px; letter-spacing: .05em; vertical-align: 1px; }
-  .chk { display: inline-flex; align-items: center; gap: 5px; color: #8b93a7;
-    font-size: 13px; cursor: pointer; user-select: none; }
-  .pal { border-radius: 5px; padding: 1px 5px; font-size: 10px; letter-spacing: .05em; vertical-align: 1px; }
-  .pal-dark  { background: #1b2230; color: #9fb0cc; }
-  .pal-mid   { background: #2b3140; color: #b9c4d6; }
-  .pal-light { background: #d8dee9; color: #2b3140; }
-  .acc { font-size: 10px; letter-spacing: .05em; vertical-align: 1px; opacity: .75; }
-  input { width: 220px; }
-  .count { color: #8b93a7; font-size: 12px; margin-right: 4px; }
-  .notice {
-    background: #241d12; border-bottom: 1px solid #3a2f1a; color: #e8c98a;
-    padding: 9px 20px; font-size: 13px; text-align: center;
-  }
-  .notice b { color: #f5b942; }
-  main { padding: 20px; display: grid; gap: 18px;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
-  figure { margin: 0; background: #141924; border: 1px solid #232936; border-radius: 12px;
-    overflow: hidden; display: flex; flex-direction: column; }
-  .thumb { background: #0a0d13; aspect-ratio: 16/9; overflow: hidden; position: relative; }
-  .thumb img { width: 100%; height: 100%; object-fit: cover; object-position: top; display: block;
-    transition: transform .25s ease; }
-  figure:hover .thumb img { transform: scale(1.02); }
-  figcaption { padding: 10px 12px 12px; }
-  .name { font-weight: 600; font-size: 14px; margin-bottom: 2px; word-break: break-word; }
-  .meta { color: #8b93a7; font-size: 12px; margin-bottom: 10px; }
-  .meta .author { color: #37e2d5; }
-  .links { display: flex; gap: 8px; }
-  a.btn {
-    display: inline-block; text-decoration: none; font-size: 12px; padding: 5px 10px;
-    border-radius: 7px; border: 1px solid #2c3342; color: #cfd6e4; background: #1a202b;
-  }
-  a.btn.dl { background: #37e2d5; color: #06201d; border-color: #37e2d5; font-weight: 600; }
-  a.btn:hover { border-color: #37e2d5; }
-  .empty { color: #8b93a7; text-align: center; padding: 60px 20px; grid-column: 1/-1; }
-  footer { color: #5d6577; font-size: 12px; padding: 20px; text-align: center; }
-  footer a { color: #37e2d5; }
-  @media (max-width: 480px) {
-    main { grid-template-columns: 1fr; padding: 12px; }
-    input { width: 100%; }
-  }
-</style>
+<title>Renoise colour themes — gallery</title>
+<meta name="description" content="560 Renoise colour themes from the forum, the official gallery and two Discord servers, with previews rendered by the renoisethemes.com engine.">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="gallery.css">
 </head>
 <body>
-<header>
-  <h1>Renoise Color Themes <span>— 560 themes · forum + official gallery + 2 Discord servers · previews rendered by renoisethemes.com engine</span></h1>
-  <div class="controls">
-    <input id="q" type="search" placeholder="Search name, author, or uploader…" autocomplete="off">
-    <select id="src">
-      <option value="all">all sources</option>
-      <option value="forum">forum</option>
-      <option value="renoise-webftp">official gallery</option>
-      <option value="discord">discord</option>
-    </select>
-    <select id="sort">
-      <option value="post">oldest first</option>
-      <option value="name">name A–Z</option>
-      <option value="author">author A–Z</option>
-    </select>
-    <select id="pal">
-      <option value="all">all palettes</option>
-      <option value="dark">dark</option>
-      <option value="mid">mid</option>
-      <option value="light">light</option>
-    </select>
-    <label class="chk" title="Authors posted deliberate version series (v1/v2, RC1/RC2, brightness variants). They are listed separately by default; tick this to show one card per series instead.">
-      <input type="checkbox" id="grp"> group variants
-    </label>
-    <span class="count" id="count"></span>
-  </div>
-</header>
-<div class="notice"><b>Heads-up:</b> these previews are <b>not screenshots</b> of the themes running in Renoise.
-They are approximate renders generated by the renoisethemes.com engine, which maps each theme's colors onto a reference image of the <i>default</i> Renoise UI.
-Text, icons, and unmapped regions are synthesized, so actual rendering may differ.</div>
-<main id="grid"></main>
+<div class="site-header"><div class="header-inner">
+<a class="logo" href="https://mene311.github.io/renoise-hub/"><span class="logo-text">renoise<strong>&#183;</strong>hub</span></a>
+<nav class="site-nav">
+<a href="https://mene311.github.io/renoise-hub/#sound">Sound</a>
+<a href="https://mene311.github.io/renoise-hub/#tools">Tools</a>
+<a href="./" class="active">Themes</a>
+<a href="https://mene311.github.io/renoise-hub/#archives">Archives</a>
+<a href="https://github.com/mene311">GitHub</a>
+</nav>
+</div></div>
+
+<div class="hero"><div class="hero-inner">
+<h1>Renoise <em>colour themes</em></h1>
+<p id="subtitle">560 themes from the forum thread, the official gallery and two Discord servers. Previews are approximate renders by the renoisethemes.com engine, not screenshots.</p>
+</div></div>
+
+<div class="notice"><div class="notice-inner">
+<b>Heads-up:</b> these previews are <b>not screenshots</b> of the themes running in Renoise. They are approximate renders
+generated by the renoisethemes.com engine, which maps each theme's colours onto a reference image of the <i>default</i>
+Renoise UI. Text, icons and unmapped regions are synthesized, so actual rendering may differ.
+</div></div>
+
+<main>
+  <section class="panel">
+    <div class="panel-head">
+      <h2>Filter</h2>
+      <span class="hint">Search by name, author or uploader; the count follows whatever you pick.</span>
+    </div>
+    <div class="panel-body">
+      <div class="opts">
+        <label>Search
+          <input id="q" type="search" placeholder="name, author, uploader…" autocomplete="off">
+        </label>
+        <label>Source
+          <select id="src">
+            <option value="all">all sources</option>
+            <option value="forum">forum</option>
+            <option value="renoise-webftp">official gallery</option>
+            <option value="discord">discord</option>
+          </select>
+        </label>
+        <label>Sort
+          <select id="sort">
+            <option value="post">oldest first</option>
+            <option value="name">name A–Z</option>
+            <option value="author">author A–Z</option>
+          </select>
+        </label>
+        <label>Palette
+          <select id="pal">
+            <option value="all">all palettes</option>
+            <option value="dark">dark</option>
+            <option value="mid">mid</option>
+            <option value="light">light</option>
+          </select>
+        </label>
+        <label title="Authors posted deliberate version series (v1/v2, RC1/RC2, brightness variants). They are listed separately by default; tick this to show one card per series instead.">
+          <input type="checkbox" id="grp"> group variants
+        </label>
+        <span class="count" id="count"></span>
+      </div>
+    </div>
+  </section>
+
+  <div class="grid" id="grid"></div>
+</main>
+
 <footer>
-  Archived from the Renoise forum thread
-  <a href="https://forum.renoise.com/t/color-themes-for-renoise/18003">“Color Themes For Renoise”</a>,
-  the <a href="https://discord.gg/hy48JMSHKc">Renoise Themes &amp; Stuff</a> Discord,
-  and the Renoise Community Server Discord
-  · themes © their authors (see <a href="catalog.json">catalog.json</a>) ·
-  raw files in <a href="themes/">themes/</a> · <a href="https://github.com/mene311/renoise-forum-color-themes">repo</a>
+  <span>Archived from the Renoise forum thread
+  <a href="https://forum.renoise.com/t/color-themes-for-renoise/18003">&ldquo;Color Themes For Renoise&rdquo;</a>,
+  the <a href="https://discord.gg/hy48JMSHKc">Renoise Themes &amp; Stuff</a> Discord
+  and the Renoise Community Server Discord.</span>
+  <span>Themes &copy; their authors (see <a href="catalog.json">catalog.json</a>).</span>
+  <span>Raw files in <a href="themes/">themes/</a></span>
+  <span><a href="https://github.com/mene311/renoise-forum-color-themes">Source</a></span>
 </footer>
+
 <script>
 const GRID = document.getElementById('grid');
 const COUNT = document.getElementById('count');
@@ -142,15 +117,15 @@ function credit(t) {
   if (src === 'forum') {
     return 'by <span class="author">' + esc(t.author || 'Anonymous') + '</span>' +
       ' · ' + esc(t.date) +
-      ' · <a style="color:#8b93a7" href="https://forum.renoise.com/t/color-themes-for-renoise/18003/' + t.post + '">post #' + t.post + '</a>';
+      ' · <a class="dim" href="https://forum.renoise.com/t/color-themes-for-renoise/18003/' + t.post + '">post #' + t.post + '</a>';
   }
   if (src === 'renoise-webftp') {
     return 'by <span class="author">' + esc(t.author || 'unknown') + '</span>' +
-      ' · <span style="color:#8b93a7" title="Mirror of the official Renoise theme gallery">official gallery</span>';
+      ' · <span class="dim" title="Mirror of the official Renoise theme gallery">official gallery</span>';
   }
   return 'author unverified · uploaded by <span class="author">@' + esc(t.posted_by || '?') + '</span>' +
     (t.date ? ' · ' + esc(t.date) : '') +
-    ' · <span style="color:#8b93a7" title="Discord CDN links expire; the file in themes/ is the source of truth">' +
+    ' · <span class="dim" title="Discord CDN links expire; the file in themes/ is the source of truth">' +
     esc((t.server ? t.server + ' ' : '') + (t.posted_in || '')) + '</span>';
 }
 function render() {
@@ -176,28 +151,29 @@ function render() {
   });
   COUNT.textContent = shown.length + ' / ' + data.length +
     (group && shown.length < items.length ? ' (' + (items.length - shown.length) + ' variants grouped)' : '');
-  GRID.innerHTML = items.length ? '' : '<div class="empty">No themes match.</div>';
+  GRID.innerHTML = items.length ? '' : '<div class="empty">Nothing matches that.</div>';
   for (const t of shown) {
-    const f = document.createElement('figure');
+    const f = document.createElement('article');
+    f.className = 'theme';
     const s = stem(t.file);
     const prev = enc('previews/' + s + '.png');   // encode: some filenames contain '#' and spaces
-    const badge = t.source === 'discord' ? ' <span class="src">discord</span>'
-      : t.source === 'renoise-webftp' ? ' <span class="src">official</span>' : '';
+    const badge = t.source === 'discord' ? ' <span class="tag">discord</span>'
+      : t.source === 'renoise-webftp' ? ' <span class="tag">official</span>' : '';
     const n = t.variant_group ? vcount[t.variant_group] : 0;
-    const vbadge = t.variant_group ? ' <span class="vsrc" title="Part of a version series by one author (' + n + ' files)' + (group ? ' - shown collapsed' : '') + '">family of ' + n + '</span>' : '';
+    const vbadge = t.variant_group ? ' <span class="tag" title="Part of a version series by one author (' + n + ' files)' + (group ? ' - shown collapsed' : '') + '">family of ' + n + '</span>' : '';
     const pm = t.palette ? t.palette.mode : null;
-    const pbadge = pm ? ' <span class="pal pal-' + pm + '" title="Weighted luminance ' + t.palette.lum + ' of the main surfaces">' + pm + '</span>' : '';
+    const pbadge = pm ? ' <span class="tag" title="Weighted luminance ' + t.palette.lum + ' of the main surfaces">' + pm + '</span>' : '';
     const abadge = (t.palette && t.palette.accent && t.palette.accent !== 'neutral')
-      ? ' <span class="acc" title="Accent hue (selection colour)">' + t.palette.accent + ' accent</span>' : '';
+      ? ' <span class="tag" title="Accent hue (selection colour)">' + t.palette.accent + ' accent</span>' : '';
     f.innerHTML =
       '<div class="thumb"><img loading="lazy" src="' + prev + '" alt="' + esc(t.name) + ' preview"></div>' +
-      '<figcaption>' +
+      '<div class="theme-body">' +
       '<div class="name">' + esc(t.name) + badge + vbadge + pbadge + abadge + '</div>' +
       '<div class="meta">' + credit(t) + '</div>' +
       '<div class="links">' +
-      '<a class="btn dl" href="' + url('themes/' + t.file) + '">⬇ .xrnc</a>' +
+      '<a class="btn dl" href="' + url('themes/' + t.file) + '">&darr; .xrnc</a>' +
       '<a class="btn" href="' + prev + '" target="_blank">preview</a>' +
-      '</div></figcaption>';
+      '</div></div>';
     GRID.appendChild(f);
   }
 }
