@@ -1,8 +1,10 @@
 /* ══════════════════════════════════════════════
-   WAVETABLE TOOLS — tracker chrome, after the
-   Renoise theme browser's own stylesheet:
-   mono type, sharp corners, chrome palette,
-   one accent, uppercase letterspaced labels.
+   Tracker chrome for the renoise hub pages.
+   Mirrored from renoise-hub/style.css — keep the
+   two in step. After the Renoise theme browser's
+   own stylesheet: mono type, sharp corners,
+   chrome palette, one accent, uppercase
+   letterspaced labels.
    ══════════════════════════════════════════════ */
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; }
